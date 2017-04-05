@@ -1,0 +1,11 @@
+.home-title{
+  font-size: 70px;
+  padding: 50px;
+}
+.categories{
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 24px;
+}
