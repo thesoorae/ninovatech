@@ -1,5 +1,5 @@
 import React from 'react';
-import './category.css'
+import './category.css';
 
 class CategoryItem extends React.Component {
   constructor(props){
@@ -23,7 +23,9 @@ class CategoryItem extends React.Component {
     if(this.state.hover){
       list = cat.tech.map(t => <div className="tech-li">{t}</div>);
     }
-
+    if(cat.logos.length > 0 && !this.state.hover ){
+      list = cat.logos.map(logo => (<img className="cat-logo" src={logo} />));
+    }
     return(
       <div className="category-item clickable" onMouseEnter={this.mouseOver} onMouseLeave={this.mouseLeave}>
         <div className="cat-title">

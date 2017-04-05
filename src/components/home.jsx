@@ -1,11 +1,11 @@
 import React from 'react';
 import './home.css';
 import {categories} from '../data';
-import CategoryItem from './category_item'
+import CategoryItem from './category_item';
 
 class Home extends React.Component{
   render(){
-    const categoryTitles = categories.map(category => (<CategoryItem cat={category} />));
+    const categoryItems = categories.map(category => (<CategoryItem cat={category} />));
     return(
       <div className="home-container">
         <div className="home-title">
@@ -16,7 +16,7 @@ class Home extends React.Component{
           Product Innovations
         </div>
         <div className="categories">
-          {categoryTitles}
+          {categoryItems}
         </div>
       </div>
     );

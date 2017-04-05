@@ -1,7 +1,20 @@
+.cat-title{
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+.cat-title:hover{
+  color: blue;
+}
 .category-item{
-  width: 300px;
+  width: 180px;
 }
 .tech-list{
-  margin: 30px;
-  background-color: gray;
+  width: 180px;
+  margin: 20px 0;
+  /*background-color: gray;*/
+}
+img{
+  width: 80%;
+  margin: 10px auto;
 }

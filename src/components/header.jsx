@@ -10,7 +10,7 @@ class Header extends React.Component{
       <div className="header">
         <Link to={'/'}>
           <div className="logo-title">
-            <h1>Ninovatech</h1>
+            Ninovatech
           </div>
         </Link>
         <div className="header-links">

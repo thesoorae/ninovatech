@@ -1,0 +1,26 @@
+.technologies{
+  padding: 0 30px;
+  }
+.cat-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.category{
+  font-size: 24px;
+  font-weight: bold;
+
+}
+.category-detail{
+  margin: 20px;
+  text-align: left;
+}
+.cat-detail-title{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.tech-li{
+  line-height: 1.5;
+}
