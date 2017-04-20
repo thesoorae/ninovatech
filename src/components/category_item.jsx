@@ -24,7 +24,7 @@ class CategoryItem extends React.Component {
       list = cat.tech.map(t => <div className="tech-li">{t}</div>);
     }
     if(cat.logos.length > 0 && !this.state.hover ){
-      list = cat.logos.map(logo => (<img className="cat-logo" src={logo} />));
+      list = cat.logos.map(logo => (<img className="cat-logo" src={logo} alt="" />));
     }
     return(
       <div className="category-item clickable" onMouseEnter={this.mouseOver} onMouseLeave={this.mouseLeave}>

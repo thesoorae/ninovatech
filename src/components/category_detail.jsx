@@ -1,4 +1,5 @@
 import React from 'react';
+import ImageFader from './img_fader';
 
 class CategoryDetail extends React.Component {
   constructor(props){
@@ -17,6 +18,9 @@ class CategoryDetail extends React.Component {
         </div>
         <div className="tech-detail-list">
           {list}
+        </div>
+        <div className="cat-detail-images">
+          <ImageFader images={cat.images} />
         </div>
       </div>
     );

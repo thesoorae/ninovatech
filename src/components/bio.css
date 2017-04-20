@@ -1,0 +1,30 @@
+.img-text{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 1.5;
+}
+.bio-text {
+  padding-left: 30px;
+  text-align: left;
+}
+
+.bio-text h3{
+  margin: 20px 0 ;
+}
+
+
+img.bio-img {
+  width: 400px;
+  height: 400px;
+
+}
+@media screen and (max-width: 660px) {
+    img.bio-img {
+      width: 200px;
+      height: 200px;
+    }
+
+}

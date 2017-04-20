@@ -7,7 +7,8 @@ export const categories = [
   "Super-fine Fiber Fabrication"],
   logos:[
     "http://res.cloudinary.com/dult7d3mc/image/upload/c_scale,w_200/v1491373492/ninovatech/Dow-Chemical-Company-logo_sc5esm.jpg"
-  ]
+  ],
+  images:[]
 },
 {
   path_name: "foodbev",
@@ -32,7 +33,8 @@ export const categories = [
     "http://res.cloudinary.com/dult7d3mc/image/upload/c_scale,w_200/v1491373582/ninovatech/1000px-Rexam_logo.svg_tnzh7x.png",
     "http://res.cloudinary.com/dult7d3mc/image/upload/c_scale,w_200/v1491373553/ninovatech/american-national-can-73709242_kcudlh.jpg"
 
-  ]
+  ],
+  images:[]
 },
 {
   path_name: "medical",
@@ -52,7 +54,8 @@ export const categories = [
     "http://res.cloudinary.com/dult7d3mc/image/upload/c_scale,w_200/v1491373629/ninovatech/2000px-Baxter.svg.png",
     "http://res.cloudinary.com/dult7d3mc/image/upload/c_scale,w_200/v1491373701/ninovatech/D0_9E_D0_B1_D0_BD_D0_BE_D0_B2_D0_BB_D0_B5_D0_BD_D0_BD_D1_8B_D0_B9__D0_BB_D0_BE_D0_B3_D0_BE_D1_82_D0_B8_D0_BF__D0_BA_D0_BE_D0_BC_D0_BF_D0_B0_D0_BD_D0_B8_D0_B8_ArjoHuntleigh.jpg",
     "http://res.cloudinary.com/dult7d3mc/image/upload/c_scale,w_200/v1491373670/ninovatech/KCI_Logo.jpg"
-  ]
+  ],
+  images:[]
 
 },
 {
@@ -65,6 +68,7 @@ export const categories = [
   ],
   logos:[
     "http://res.cloudinary.com/dult7d3mc/image/upload/c_scale,w_200/v1491373733/ninovatech/RTI_SURGICAL_TEMPLOGO.jpg"
-  ]
+  ],
+  images:[]
 }
 ];

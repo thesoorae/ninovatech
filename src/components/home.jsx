@@ -5,7 +5,7 @@ import CategoryItem from './category_item';
 
 class Home extends React.Component{
   render(){
-    const categoryItems = categories.map(category => (<CategoryItem cat={category} />));
+    const categoryItems = categories.map(category => (<CategoryItem key={category.path_name} cat={category} />));
     return(
       <div className="home-container">
         <div className="home-title">

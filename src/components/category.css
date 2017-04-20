@@ -14,7 +14,8 @@
   margin: 20px 0;
   /*background-color: gray;*/
 }
-img{
-  width: 80%;
+.cat-logo{
+  width: 180px;
+  height: auto;
   margin: 10px auto;
 }
