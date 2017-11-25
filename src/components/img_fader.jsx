@@ -19,7 +19,7 @@ class ImageFader extends React.Component {
   }
 
   render(){
-    const img = this.props.images[this.state.photo_idx];
+    const img = this.props.images[this.state.photo_idx] || {};
     const title = img.title ? img.title : "";
     const url = img.url ? img.url : "";
     // setTimeout(this.timer, 2000);

@@ -12,11 +12,11 @@ const Root = () => (
   <Router history={browserHistory} >
     <Route path="/" component={App}>
       <IndexRoute component ={Home} />
-      <Route path="technologies" component={Technologies}></Route>
-      <Route path="products" component={Products}></Route>
-      <Route path="patents" component={Patents}></Route>
-      <Route path="photos" component={Photos}></Route>
-      <Route path="bio" component={Bio}></Route>
+      <Route path="/technologies" component={Technologies}></Route>
+      <Route path="/products" component={Products}></Route>
+      <Route path="/patents" component={Patents}></Route>
+      <Route path="/photos" component={Photos}></Route>
+      <Route path="/bio" component={Bio}></Route>
     </Route>
   </Router>
 );

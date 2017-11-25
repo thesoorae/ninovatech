@@ -72,3 +72,222 @@ export const categories = [
   images:[]
 }
 ];
+
+export const patents = [
+  {
+    date: Date.parse("Jan 25, 1994"),
+    title: "Barrier composition and articles made therefrom",
+    number: "US 5281360 A",
+    abstract: "Blends of polymers, such as aromatic condensation polymers including formable polyesters and polycarbonates with an oxygen barrier material such as aromatic or aliphatic nylon, an amorphous nylon or EVOH, which have been oriented and which contain a transition metal catalyst, exhibit the improved barrier properties and oxygen absorption properties of the present invention.",
+    link: "https://www.google.com/patents/US5281360",
+    images: ["https://patentimages.storage.googleapis.com/pages/US5281360-2.png", 
+    "https://patentimages.storage.googleapis.com/pages/US5281360-3.png",
+    "https://patentimages.storage.googleapis.com/pages/US5281360-1.png" ]
+  },
+  {
+    date: Date.parse("Nov 8, 2011"),
+    title: "Overpouch film and container and method of making same ",
+    number: "US 8053048 B2",
+    abstract: "A polymer blend comprising a high density polyethylene and a surface enhancing polymer is provided. The surface enhancing polymer may be an elastomer such as an ethylene propylene diene monomer terpolymer. The polymer blend may be fabricated into articles such as a film or a flexible overpouch for storing, and transporting medical components. Overpouch films made from the blend advantageously do not wrinkle or deform medical components contained therein when the overpouch—medical component combination is autoclaved.",
+    link: "https://www.google.com/patents/WO2006116287A9",
+    images: ["https://patentimages.storage.googleapis.com/US8053048B2/US08053048-20111108-D00005.png", 
+    "https://patentimages.storage.googleapis.com/US8053048B2/US08053048-20111108-D00004.png"
+   ],
+   related: [
+     {
+      title: "US20060240204 A1",
+      link: "https://www.google.com/patents/US20060240204"
+    },
+    {
+      title: "CA2604315 A1",
+      link: "https://www.google.com/patents/CA2604315A1?cl=en"
+    }
+    {
+      title: "EP 1877484 B1",
+      link: "https://www.google.com/patents/EP1877484B1"
+    }
+  },
+  {
+    date: Date.parse("Jul 22, 2014"),
+    title: "Compositions with reactive ingredients, and wound dressings, apparatuses, and methods",
+    number: "US8785713 B2",
+    abstract: "Wound dressings and wound inserts comprising substantially dry reactive agents, methods of forming wound inserts comprising dry reactive agents, and wound-treatment methods.",
+    link: "https://www.google.com/patents/US8785713",
+    images: ["https://patentimages.storage.googleapis.com/US8785713B2/US08785713-20140722-D00003.png", 
+    "https://patentimages.storage.googleapis.com/US8785713B2/US08785713-20140722-D00004.png",
+    "https://patentimages.storage.googleapis.com/US8785713B2/US08785713-20140722-D00008.png"
+   ],
+   related: [
+     {
+     title: "WO2011130246 A3",
+     link: "https://www.google.com/patents/WO2011130246A3?cl=fr"
+      },
+     {
+       title: "US 20140343514 A1",
+       link: "https://www.google.com/patents/US20140343514"
+      },
+     {
+       title: "EP2558107 A2",
+       link: "https://www.google.com/patents/EP2558107A2"
+      },
+     {
+       title: "CA 2796334 A1",
+       link: "https://www.google.com/patents/CA2796334A1"
+      },
+    ]
+  },
+  {
+    date: Date.parse("Jun 2, 2016"),
+    title: "Moisture control coverlet",
+    number: "CA2968526 A1",
+    abstract: "A moisture control coverlet (10) includes a fluid pathway for moisture removal fluid It is selectively configurable to use a first fluid pump (32), and/or an adaptor (34). The first fluid pump (32) can be mounted on the coverlet and coupled to the fluid pathway for pumping moisture removal fluid into or out of the fluid pathway. The adaptor (34) can be mounted on the coverlet and coupled to the fluid pathway and can be coupled to a second fluid pump (48) for pumping moisture removal fluid into or out of the fluid pathway.",
+    link: "https://www.google.com/patents/CA2968526A1",
+    images: [],
+    related: [
+      {
+      title: "EP 3223766 A2",
+      link: "https://www.google.com/patents/EP3223766A2?cl=fr"
+      },
+      {
+        title: "WO2016086073 A3",
+        link: "https://www.google.com/patents/WO2016086073A3?cl=en"
+      }
+    ]
+  },
+  {
+    date: Date.parse("Apr 12, 2012"),
+    title: "Compositions comprenant des ingrédients réactifs, et pansements, appareils, et procédés",
+    number: "WO2011130246 A3",
+    abstract: "La présente invention concerne des pansements et des inserts pour plaies comprenant essentiellement des substances réactives sèches, des procédés de formation d'inserts pour plaies comprenant des substances réactives sèches, et des procédés de traitement de plaies.",
+    link: "https://www.google.com/patents/WO2011130246A3",
+    images: []
+  },
+  {
+    date: Date.parse("Oct 4, 2017"),
+    title: "Moisture control system",
+    number: "EP 3223767 A1",
+    abstract: "A moisture control system includes a moisture control coverlet (10) and a fluid pump (18). The moisture control coverlet (10) includes a fluid pathway therein for moisture removal fluid. The fluid pump (18) is coupled to the fluid pathway for pumping fluid out of the fluid pathway by negative pressure at a fluid pump rate. The fluid pump rate can be adjustable and/or can be greater than 1 CFM",
+    link: "https://www.google.com/patents/EP3223767A1",
+    images: [],
+    related: [
+      {
+        title: "WO 2016086030 A1",
+        link: "https://www.google.com/patents/WO2016086030A1"
+      }
+    ]
+  },
+  {
+    date: Date.parse("Jul 25, 2013"),
+    title: "System for Support and Thermal Control",
+    number: "US 20130189920 A1",
+    abstract: "In various embodiments, a support surface cooling device configured to reduce the skin temperature of a patient.",
+    link: "https://www.google.com/patents/US20130189920",
+    images: [
+      "https://patentimages.storage.googleapis.com/US20130189920A1/US20130189920A1-20130725-D00001.png",
+      "https://patentimages.storage.googleapis.com/US20130189920A1/US20130189920A1-20130725-D00002.png",
+      "https://patentimages.storage.googleapis.com/US20130189920A1/US20130189920A1-20130725-D00004.png"
+    ],
+    related: [
+      {
+        title: "EP 2739255 A1 ",
+        link: "https://www.google.com/patents/EP2739255A1"
+      },
+      
+    ]
+  },
+  {
+    date: Date.parse("Jul 15, 2015"),
+    title: "Low-air-loss (lal) patient support apparatuses and methods ",
+    number: "EP 2892488 A1",
+    abstract: "Mattresses and cushions, methods of making mattresses and cushions, and patient supports comprising a mattress and/or a cushion. At least some embodiments of the present mattresses and cushions comprise a body with air-impermeable material having a plurality of openings, and a cover sheet comprising air-permeable and liquid-impermeable material covering at least a portion of the plurality of openings and coupled to the body by a liquid-impermeable welded seam encircling the covered one or more openings.",
+    link: "https://www.google.com/patents/EP2892488A1",
+    images: [],
+    related: [
+      {
+        title: "WO 2014039827 A1",
+        link: "https://www.google.com/patents/WO2014039827A1"
+      },
+      {
+        title: "WO2016086073 A3",
+        link: "https://www.google.com/patents/WO2016086073A3?cl=en"
+      }
+    ]
+  },
+  {
+    date: Date.parse("Jan 31, 2013"),
+    title: "Multi-Layered Support System",
+    number: "US 20130025053 A1",
+    abstract: "In various embodiments, a support system includes a cover sheet with a number of layers. In certain embodiments, a top layer and a bottom layer are bonded to a middle spacer layer.",
+    link: "https://www.google.com/patents/US20130025053",
+    images: [
+      "https://patentimages.storage.googleapis.com/US20130025053A1/US20130025053A1-20130131-D00002.png",
+      "https://patentimages.storage.googleapis.com/US20130025053A1/US20130025053A1-20130131-D00001.png",
+      "https://patentimages.storage.googleapis.com/US20130025053A1/US20130025053A1-20130131-D00005.png"
+    ],
+    related: [
+      {
+        title: "WO2013016609 A1",
+        link: "https://www.google.com/patents/WO2013016609A"
+      }
+    ]
+  },
+]
+
+export const PUBLICATIONS = [
+  {
+    link: "https://books.google.com/books?id=X8NmH9jcJmQC&pg=PA123&lpg=PA123",
+    title: "Medical Plastics: Degradation Resistance and Failure Analysis",
+    article: "Controlled Ductility Loss of Polycarbonate Through Steam Sterilization",
+    co_authors: "Chuan Qin",
+    date: 2008,
+    abstract: ""
+  },
+  {
+    link: "http://onlinelibrary.wiley.com/doi/10.1002/vnl.10123/abstract",
+    title: "Vinyl and Additive Technology Vol: 10123",
+    article: "Poly(vinyl chloride) in medical device and packaging applications",
+    date: 1996,
+    abstract: "Poly(vinyl chloride) (PVC) is the leading polymeric material used in medical device and packaging applications in terms of total volume consumed.It offers a uniquely broad range of properties for a wide variety of applications in the medical and health care industry.It fulfills an extensive range of performance and processing requirements such as gloss, transparency, chemical resistance, scuff resistance, flexibility, bondability, sterilizability by steam, ETO, or high energy irradiation.This paper examines fundamental chemsitry and physical structure of PVC to provide a clear insight and a better understanding on how versatile properties and performance are rendered.The paper also illustrates how specific mechanical and thermal properties can be tailored via compounding and fabrication processes to serve specific purposes in medical applications."
+  },
+  {
+    link: "https://www.mddionline.com/explaining-ductility-loss-steam-sterilized-polycarbonate",
+    title: "Medical Plastics and Biomaterials Magazine",
+    article: "Explaining Ductility Loss in Steam-Sterilized Polycarbonate",
+    date: 1996,
+    co_authors: "Chuan Qin, Lecon Woo",
+    abstract: "POLYCARBONATE IS ONE OF THE VERY FEW POLYMERS THAT HAVE GLASS-TRANSITION (TG) AND HEAT-DEFLECTION TEMPERATURES (HDT) HIGH ENOUGH TO WITHSTAND NORMAL STEAM STERILIZATION CONDITIONS IN MEDICAL DEVICE APPLICATIONS. OTHER STEAM-STERILIZABLE POLYMERS INCLUDE POLYSULFONES AND POLY(ETHERIMIDE).2­4 AMONG THESE MATERIALS, POLYCARBONATE REMAINS THE MOST ATTRACTIVE AND ECONOMICALLY VIABLE BECAUSE OF ITS EXCELLENT COMBINATION OF PERFORMANCE, PROCESSIBILITY, AND COST. HOWEVER, IT HAS BEEN WIDELY REPORTED THAT POLYCARBONATE QUICKLY LOSES ITS DUCTILITY OR IMPACT PROPERTIES FOLLOWING REPEATED STEAM STERILIZATION CYCLES."
+  },
+  {
+    link: "http://journals.sagepub.com/doi/abs/10.1177/073168401772678364",
+    title: "Journal of Reinforced Plastics and Composites",
+    article: "ESCR Behavior of Plastic Materials in Medical Environments",
+    date: 2001,
+    co_authors: "Chuan Qin, Y.S.Ding, H.Dhyani, T.Kivlehan, M.Monaghan, J.Penn, L.Woo",
+    abstract: "Besides other facets of product development, it is imperative for medical device manufacturers to take great efforts through proper evaluation and consideration of material properties under practical conditions to prevent product failure at the end-uses. The environmental stress crack (ESCR) induced by chemical agents plays a significant role on material performances. In this contribution, in-depth studies have been carried out on different medical plastic materials, such as polycarbonate, copolyesters, ABS, acrylics, rigid thermoplastic polyurethane and their blends. More attention will be focused on a copolyester material for its unique ESCR behavior. Variation of chemical agents (such as different types of hospital disinfection solutions) have great impacts on physical and functional properties. Various plastics shows distinct environmental stress cracking phenomena under different conditions. Mechanisms of ESCR phenomenon under different environments have been explored. Fibril reinforcement by cold crystallization and chain session by hydrolysis of the copolyester may have contributed to its excellent chemical resistance against a wide range of chemicals and its catastrophic failure in acidic or basic environment. In addition, appropriate definition of product failures is also critical in making materials decisions."
+  },
+  {
+    link: "",
+    title: "Journal of Applied Medical Polymers",
+    article: "Environmental-Stress-Crack Resistance of Rigid Thermoplastic Polyurethane",
+    date: 1998,
+    co_authors: " C. Qin, S. Ding, V. Zepchi, H. Dhyani",
+    abstract: "Besides other facets of product development, it is imperative for medical device manufacturers to take great efforts through proper evaluation and consideration of material properties under practical conditions to prevent product failure at the end-uses. The environmental stress crack (ESCR) induced by chemical agents plays a significant role on material performances. In this contribution, in-depth studies have been carried out on different medical plastic materials, such as polycarbonate, copolyesters, ABS, acrylics, rigid thermoplastic polyurethane and their blends. More attention will be focused on a copolyester material for its unique ESCR behavior. Variation of chemical agents (such as different types of hospital disinfection solutions) have great impacts on physical and functional properties. Various plastics shows distinct environmental stress cracking phenomena under different conditions. Mechanisms of ESCR phenomenon under different environments have been explored. Fibril reinforcement by cold crystallization and chain session by hydrolysis of the copolyester may have contributed to its excellent chemical resistance against a wide range of chemicals and its catastrophic failure in acidic or basic environment. In addition, appropriate definition of product failures is also critical in making materials decisions."
+  },
+  {
+    link: "",
+    title: "SPE ANTEC",
+    article: "Effect of Therapeutic Fluids and Hospital Disinfection Solutions on Plastic Medical Devices",
+    date: 1998,
+    co_authors: "C. Qin, Y. S. Ding, H. Dhyani, M. Monaghan, V. Zepchi and L. Woo",
+    abstract: "Besides other facets of product development, it is imperative for medical device manufacturers to take great efforts through proper evaluation and consideration of material properties under practical conditions to prevent product failure at the end-uses. The environmental stress crack (ESCR) induced by chemical agents plays a significant role on material performances. In this contribution, in-depth studies have been carried out on different medical plastic materials, such as polycarbonate, copolyesters, ABS, acrylics, rigid thermoplastic polyurethane and their blends. More attention will be focused on a copolyester material for its unique ESCR behavior. Variation of chemical agents (such as different types of hospital disinfection solutions) have great impacts on physical and functional properties. Various plastics shows distinct environmental stress cracking phenomena under different conditions. Mechanisms of ESCR phenomenon under different environments have been explored. Fibril reinforcement by cold crystallization and chain session by hydrolysis of the copolyester may have contributed to its excellent chemical resistance against a wide range of chemicals and its catastrophic failure in acidic or basic environment. In addition, appropriate definition of product failures is also critical in making materials decisions."
+  },
+  {
+    link: "http://onlinelibrary.wiley.com/doi/10.1002/pen.760190605/full",
+    title: "Polymer Engineering and Science Vol 19",
+    article: "Strain-induced crystallization, Part III: Theory",
+    date: 1979,
+    co_authors: "C. Qin, Y. S. Ding, H. Dhyani, M. Monaghan, V. Zepchi and L. Woo",
+    abstract: "Besides other facets of product development, it is imperative for medical device manufacturers to take great efforts through proper evaluation and consideration of material properties under practical conditions to prevent product failure at the end-uses. The environmental stress crack (ESCR) induced by chemical agents plays a significant role on material performances. In this contribution, in-depth studies have been carried out on different medical plastic materials, such as polycarbonate, copolyesters, ABS, acrylics, rigid thermoplastic polyurethane and their blends. More attention will be focused on a copolyester material for its unique ESCR behavior. Variation of chemical agents (such as different types of hospital disinfection solutions) have great impacts on physical and functional properties. Various plastics shows distinct environmental stress cracking phenomena under different conditions. Mechanisms of ESCR phenomenon under different environments have been explored. Fibril reinforcement by cold crystallization and chain session by hydrolysis of the copolyester may have contributed to its excellent chemical resistance against a wide range of chemicals and its catastrophic failure in acidic or basic environment. In addition, appropriate definition of product failures is also critical in making materials decisions."
+  }
+
+]
