@@ -73,7 +73,7 @@ export const categories = [
 }
 ];
 
-export const patents = [
+export const PATENTS = [
   {
     date: Date.parse("Jan 25, 1994"),
     title: "Barrier composition and articles made therefrom",
@@ -231,6 +231,24 @@ export const patents = [
       }
     ]
   },
+  {
+    date: Date.parse("Nov 8, 1988"),
+    title: "Polybutene molded article and method for making same ",
+    number: "US 4783301 A",
+    abstract: "The specification discloses a polybutene-1 polymer product and method and apparatus for making same in which the polymer is introduced into a form which defines the shape of the desired part and is then subjected to shear at a temperature from just above to just below the melting point of the polybutene-1 polymer, achieved by positioning the polymer blend between a shell and a mandrel and rotating the two relative to one another. When the viscosity of the polymer reaches a maximum, the part solidified and removed for subsequent use.",
+    link: "https://www.google.com/patents/US4783301",
+    images: [
+      "https://patentimages.storage.googleapis.com/pages/US4783301-1.png",
+      "https://patentimages.storage.googleapis.com/pages/US4783301-10.png",
+      "https://patentimages.storage.googleapis.com/pages/US4783301-4.png"
+    ],
+    related: [
+      {
+        title: "WO2013016609 A1",
+        link: "https://www.google.com/patents/WO2013016609A"
+      }
+    ]
+  },
 ]
 
 export const PUBLICATIONS = [
@@ -286,8 +304,74 @@ export const PUBLICATIONS = [
     title: "Polymer Engineering and Science Vol 19",
     article: "Strain-induced crystallization, Part III: Theory",
     date: 1979,
-    co_authors: "C. Qin, Y. S. Ding, H. Dhyani, M. Monaghan, V. Zepchi and L. Woo",
-    abstract: "Besides other facets of product development, it is imperative for medical device manufacturers to take great efforts through proper evaluation and consideration of material properties under practical conditions to prevent product failure at the end-uses. The environmental stress crack (ESCR) induced by chemical agents plays a significant role on material performances. In this contribution, in-depth studies have been carried out on different medical plastic materials, such as polycarbonate, copolyesters, ABS, acrylics, rigid thermoplastic polyurethane and their blends. More attention will be focused on a copolyester material for its unique ESCR behavior. Variation of chemical agents (such as different types of hospital disinfection solutions) have great impacts on physical and functional properties. Various plastics shows distinct environmental stress cracking phenomena under different conditions. Mechanisms of ESCR phenomenon under different environments have been explored. Fibril reinforcement by cold crystallization and chain session by hydrolysis of the copolyester may have contributed to its excellent chemical resistance against a wide range of chemicals and its catastrophic failure in acidic or basic environment. In addition, appropriate definition of product failures is also critical in making materials decisions."
-  }
+    co_authors: "GSY Yeh",
+    abstract: "A nucleation theory for strain-induced crystallization is formulated to explain and to predict the effects of molecular strain on crystallization kinetics and crystallite size. Unlike any current theories that have based their formulations on some assumed extended-chain line nuclei or folded-chain crystals, the present theory avoids all assumptions concerning the crystal morphology. It is based on experimental findings which indicate limited crystal growth in the strain direction, following a reciprocal dependence of crystal thickness on supercooling ΔT. (ΔT = Tmath image, − T, where the equilibrium melting temperature, Tmath image, is a variable dependent on degree of molecular strain prior to strain-induced crystallization.)"
+  },
+  {
+    link: "http://onlinelibrary.wiley.com/doi/10.1002/pen.760190605/full",
+    title: "Polymer Engineering and Science Vol 19",
+    article: "Strain-induced crystallization, Part IV: Induction time analysis",
+    date: 1979,
+    co_authors: "G.S.Y. Yeh, D.L. Krueger",
+    abstract: "The empirical equation, 1/ti = AeEi/RT, which expresses the exponential dependence of the reciprocal of crystallization induction time, ti, has been analyzed and shown to be equivalent to the nucleation rate equations derived earlier in Part III (1). Consequently we have used the ti measurements obtained earlier by Krueger and Yeh to calculate not only the nucleation rate enhancements but also the melting point elevations, the relative crystal thickness changes and molecular coil extension ratios of shear-crystallization polyethylene."
+  },
+  {
+    link: "https://pdfs.semanticscholar.org/65e6/8a4e1eda750c8a887879d0fb358417c850c6.pdf",
+    title: "WOUNDS Vol 23"
+    article: "Strain-induced crystallization, Part III: Theory",
+    date: 2011,
+    co_authors: "Chris Lessing, PhD; Paul Slack, PhD; Deepak Kilpadi, PhD; Amy McNulty, PhD",
+    abstract: " Negative pressure wound therapy (NPWT) with reticulated open-cell foam(ROCF) dressings(ROCF G, V.A.C.® GranuFoam™ Dressing, KCI USA, Inc, San Antonio, TX) creates a healing environment that removes wound exudates, reduces edema, and promotes perfusion and granulation tissue formation."
+  },
+  {
+    link: "https://books.google.com/books?id=f51TwqB802EC&pg=PA118&lpg=PA118",
+    title: "Polymers in Medical Applications"
+    article: "Clear Plastics for Medical Applications and Packaging",
+    date: 1994,
+    co_authors: "",
+    abstract: "A review is given of materials used in the medical device and packaging industry that require see-through clarity. Physical properties are discussed."
+  },
+  {
+    link: "",
+    title: "TECHNICAL PAPERS OF THE ANNUAL TECHNICAL CONFERENCE - SOCIETY OF PLASTICS ENGINEERS INCORPORATED, vol. 3, pp. 3185 - 3190. SOCIETY OF PLASTICS ENGINEERS INC",
+    article: "Effects of Therapeutic Fluids and Hospital Disinfection Solutions on Plastic Medical Devices.",
+    date: 1998,
+    co_authors: "Qin, C., S.Ding, H.Dhyani, M.Monaghan, V.Zepchi, and L.Woo.",
+    abstract: ""
+  },
+  {
+    link: "",
+    title: " PLASTICS ENGINEERING 42, no. 2 (1986): 25-28.",
+    article: "PUTTING REGRIND TO WORK IN MAKING BARRIER SHEET.",
+    date: 1998,
+    co_authors: "KLING, TJ, EM JORGE, SJ KINCAID, and JR POWERS.",
+    abstract: ""
+  },
+  {
+    link: "http://journals.lww.com/jwocnonline/Abstract/2015/09000/Standardizing_Support_Surface_Testing_and.3.aspx",
+    title: "Journal of Wound Ostomy & Continence Nursing Vol 42",
+    article: "Standardizing Support Surface Testing and Reporting: A National Pressure Ulcer Advisory Panel Executive Summary",
+    date: 1998,
+    co_authors: "Stone, Arthur; Brienza, David; Call, Evan; Fontaine, Rick; Goldberg, Margaret; Jordan, Rosalyn; Lachenbruch, Charlie; LaFleche, Patrick; Sylvia, Cindy",
+    abstract: "In 2001, the National Pressure Ulcer Advisory Panel's Research Committee identified the need to create uniform terminology, test methods, and reporting technical standards for support surfaces. As a result, the S3I Committee was formed and initial meetings of interested stakeholders who included clinicians, researchers, academics, manufacturers, providers, and regulators were held. The group's initial goal was to (1) establish common language to facilitate understanding by developing standardized terminology for describing and discussing support surfaces, (2) establish a suite of standardized tests of performance capable of repeatedly, reliably, and accurately reporting upon characteristics common to all support surfaces that are believed to be related to the extrinsic risk factors associated with skin breakdown, as indicated by the literature to date, and (3) identify and standardize methods to evaluate the effective life of a support surface. The purpose of this article was to summarize the current status of the effort of the Support Surface Standards Initiative (S3I) Committee to identify and standardize methods to evaluate the many characteristic factors that determine the effective life of a support surface."
+  },
+  {
+    link: "",
+    title: "BULLETIN OF THE AMERICAN PHYSICAL SOCIETY, vol. 25",
+    article: "MELTING BEHAVIOR OF STRAIN-CRYSTALLIZED POLYMERS.",
+    date: 1980,
+    co_authors: "G.S.Y. Yeh",
+    abstract: ""
+  },
+  {
+    link: "",
+    title: "BULLETIN OF THE AMERICAN PHYSICAL SOCIETY, vol. 24",
+    article: "EQUILIBRIUM MELTING TEMPERATURE OF STRAIN-CRYSTALLIZED POLYMERS.",
+    date: 1979,
+    co_authors: "G.S.Y. Yeh",
+    abstract: ""
+  },
 
+
+ 
 ]
