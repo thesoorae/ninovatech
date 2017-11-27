@@ -1,4 +1,4 @@
-export const categories = [
+export const CATEGORIES = [
   {
   path_name: "plastics",
   title: "Plastics Fabrication Technologies",

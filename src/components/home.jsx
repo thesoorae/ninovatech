@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css';
-import {categories} from '../data';
+import {CATEGORIES} from '../data';
 import CategoryItem from './category_item';
 
 class Home extends React.Component{
