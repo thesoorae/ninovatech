@@ -29,3 +29,55 @@
 .patent_desc {
     font-size: 12px;
 }
+
+.related_links {
+    display: flex;
+    flex-direction: row;
+    .related_title {
+        font-size: 12px;
+        font-weight: normal;
+        font-style: italic;
+    }
+    > a {
+        margin: 0 5px;
+        font-size: 12px;
+        text-decoration: underline;
+    }
+}
+.patent_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.image_toggle {
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    .arrow {
+        margin: auto 4px;
+        width: 0;
+        height: 0;
+        &.down {
+         
+            border-left: 7px solid transparent;
+            border-right: 7px solid transparent;
+            border-top: 7px solid gray;
+        }
+
+        &.up {
+            border-left: 7px solid transparent;
+            border-right: 7px solid transparent;
+            border-bottom: 7px solid gray;
+        }
+    }
+
+}
+.patent_image {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+}

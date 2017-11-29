@@ -1,0 +1,23 @@
+
+.header {
+  -webkit-box-shadow: -1px 22px 27px -3px rgba(0,0,0,0.09);
+  -moz-box-shadow: -1px 22px 27px -3px rgba(0,0,0,0.09);
+  box-shadow: -1px 22px 27px -3px rgba(0,0,0,0.09);
+  height: 30px;
+}
+.nav-link{
+  color: black;
+
+}
+.header-links{
+  margin-top: 20px;
+  font-size: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.logo-title{
+  font-size: 30px;
+  font-weight: bold;
+}
