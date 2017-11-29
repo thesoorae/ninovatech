@@ -101,11 +101,11 @@ export const PATENTS = [
     {
       title: "CA2604315 A1",
       link: "https://www.google.com/patents/CA2604315A1?cl=en"
-    }
+    },
     {
       title: "EP 1877484 B1",
       link: "https://www.google.com/patents/EP1877484B1"
-    }
+    }]
   },
   {
     date: Date.parse("Jul 22, 2014"),
@@ -114,9 +114,9 @@ export const PATENTS = [
     abstract: "Wound dressings and wound inserts comprising substantially dry reactive agents, methods of forming wound inserts comprising dry reactive agents, and wound-treatment methods.",
     link: "https://www.google.com/patents/US8785713",
     images: ["https://patentimages.storage.googleapis.com/US8785713B2/US08785713-20140722-D00003.png", 
-    "https://patentimages.storage.googleapis.com/US8785713B2/US08785713-20140722-D00004.png",
-    "https://patentimages.storage.googleapis.com/US8785713B2/US08785713-20140722-D00008.png"
-   ],
+      "https://patentimages.storage.googleapis.com/US8785713B2/US08785713-20140722-D00004.png",
+      "https://patentimages.storage.googleapis.com/US8785713B2/US08785713-20140722-D00008.png"
+    ],
    related: [
      {
      title: "WO2011130246 A3",
@@ -317,7 +317,7 @@ export const PUBLICATIONS = [
   },
   {
     link: "https://pdfs.semanticscholar.org/65e6/8a4e1eda750c8a887879d0fb358417c850c6.pdf",
-    title: "WOUNDS Vol 23"
+    title: "WOUNDS Vol 23",
     article: "Strain-induced crystallization, Part III: Theory",
     date: 2011,
     co_authors: "Chris Lessing, PhD; Paul Slack, PhD; Deepak Kilpadi, PhD; Amy McNulty, PhD",
@@ -325,7 +325,7 @@ export const PUBLICATIONS = [
   },
   {
     link: "https://books.google.com/books?id=f51TwqB802EC&pg=PA118&lpg=PA118",
-    title: "Polymers in Medical Applications"
+    title: "Polymers in Medical Applications",
     article: "Clear Plastics for Medical Applications and Packaging",
     date: 1994,
     co_authors: "",

@@ -1,0 +1,31 @@
+.patent_block {
+    color: black;
+    background-color: #edf3fc;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    > * {
+        margin: 5px 0;
+    }
+}
+.num_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.patent_num {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.patent_title {
+    font-style: italic;
+}
+
+.patent_desc {
+    font-size: 12px;
+}
