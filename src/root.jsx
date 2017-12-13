@@ -5,6 +5,7 @@ import Home from './components/home.jsx';
 import Technologies from './components/technologies';
 import Products from './components/products';
 import Patents from './components/patents';
+import Publications from './components/publications';
 import Photos from './components/photos';
 import Bio from './components/bio';
 
@@ -15,6 +16,7 @@ const Root = () => (
       <Route path="/technologies" component={Technologies}></Route>
       <Route path="/products" component={Products}></Route>
       <Route path="/patents" component={Patents}></Route>
+      <Route path="/publications" component={Publications}></Route>
       <Route path="/photos" component={Photos}></Route>
       <Route path="/bio" component={Bio}></Route>
     </Route>

@@ -8,7 +8,11 @@ export const CATEGORIES = [
   logos:[
     "http://res.cloudinary.com/dult7d3mc/image/upload/c_scale,w_200/v1491373492/ninovatech/Dow-Chemical-Company-logo_sc5esm.jpg"
   ],
-  images:[]
+    images: [
+      "http://res.cloudinary.com/dult7d3mc/image/upload/v1492911910/filepicker-tjqia9hwsccecmyp0xtj_saran_wrap_mdxnad.jpg",
+      "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540875/ninovatech/foodbev/2017-03-19_17.04.34.jpg",
+      "http://res.cloudinary.com/dult7d3mc/image/upload/v1513141348/imageService_afdubb.jpg"
+     ]
 },
 {
   path_name: "foodbev",
@@ -34,14 +38,33 @@ export const CATEGORIES = [
     "http://res.cloudinary.com/dult7d3mc/image/upload/c_scale,w_200/v1491373553/ninovatech/american-national-can-73709242_kcudlh.jpg"
 
   ],
-  images:[]
+  images: [
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.20.19.jpg",
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540855/ninovatech/foodbev/2017-03-18_17.21.23.jpg",
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540895/ninovatech/foodbev/2017-03-19_17.10.11.jpg", 
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540895/ninovatech/foodbev/2017-03-19_17.14.30.jpg",
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540893/ninovatech/foodbev/2017-03-19_17.03.35.jpg",
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540891/ninovatech/foodbev/2017-03-19_17.11.26.jpg",
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540890/ninovatech/foodbev/2017-03-18_17.50.18.jpg",
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540889/ninovatech/foodbev/2017-03-19_17.09.01.jpg",
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540889/ninovatech/foodbev/2017-03-19_17.07.13.jpg",
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540880/ninovatech/foodbev/2017-03-18_17.48.40.jpg",
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540880/ninovatech/foodbev/2017-03-19_17.05.42.jpg",
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540875/ninovatech/foodbev/2017-03-18_17.47.58.jpg",
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540863/ninovatech/foodbev/2017-03-18_17.28.21.jpg", 
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540861/ninovatech/foodbev/2017-03-18_17.26.13.jpg",
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.21.53.jpg",
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.17.52.jpg",
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.23.23.jpg",
+
+  ]
 },
 {
   path_name: "medical",
   title: "Medical Devices Design & Manufacturing",
   tech: [
     "Parenteral Solution Delivery System",
-    "Needless Access System",
+    "Needleless Access System",
     "Biotech Drug Containers",
     "Non-PVC IV Solution Containers",
     "Blood Storage Containers",
@@ -55,7 +78,11 @@ export const CATEGORIES = [
     "http://res.cloudinary.com/dult7d3mc/image/upload/c_scale,w_200/v1491373701/ninovatech/D0_9E_D0_B1_D0_BD_D0_BE_D0_B2_D0_BB_D0_B5_D0_BD_D0_BD_D1_8B_D0_B9__D0_BB_D0_BE_D0_B3_D0_BE_D1_82_D0_B8_D0_BF__D0_BA_D0_BE_D0_BC_D0_BF_D0_B0_D0_BD_D0_B8_D0_B8_ArjoHuntleigh.jpg",
     "http://res.cloudinary.com/dult7d3mc/image/upload/c_scale,w_200/v1491373670/ninovatech/KCI_Logo.jpg"
   ],
-  images:[]
+  images:[
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1513141504/Non-PVC-IV-Bag_rjfme3.jpg",
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1513141580/1481082350552055657_wdxkga.jpg",
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1513141700/Tiger-Woods-1110x600_xhocxi.jpg"
+  ]
 
 },
 {
