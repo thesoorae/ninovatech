@@ -1,0 +1,19 @@
+.carousel_container {
+    width: 100%;
+    overflow-x: hidden;
+}
+.img-container {
+    width: auto;
+    background: gray;
+    height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.product-img {
+    max-height: 300px;
+    width: auto;
+    margin: auto;
+    position: relative;
+}
