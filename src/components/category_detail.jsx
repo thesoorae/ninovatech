@@ -15,14 +15,12 @@ class CategoryDetail extends React.Component {
 
     return(
       <div className="category_detail" id={cat.path_name}>
+        <ImageFader images={cat.images} />
         <h2 className="cat_detail_title">
           {cat.title}
         </h2>
         <div className="tech_detail_list">
           {list}
-        </div>
-        <div className="cat_detail_images">
-          <ImageFader images={cat.images} />
         </div>
       </div>
     );

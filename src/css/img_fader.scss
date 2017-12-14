@@ -1,0 +1,15 @@
+.img-container {
+    width: 100%;
+    background: gray;
+    height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.product-img {
+    max-height: 300px;
+    width: auto;
+    margin: auto;
+    position: relative;
+}
