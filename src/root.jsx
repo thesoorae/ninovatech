@@ -11,8 +11,10 @@ import Bio from './components/bio';
 
 const Root = () => (
   <Router history={browserHistory} >
-    <Route path="/" component={App}>
+    <Route path="/" component={Home}>
       <IndexRoute component ={Home} />
+    </Route>
+    <Route component={App}>
       <Route path="/technologies" component={Technologies}></Route>
       <Route path="/products" component={Products}></Route>
       <Route path="/patents" component={Patents}></Route>
