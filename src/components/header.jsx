@@ -4,7 +4,7 @@ import '../css/header.css';
 
 class Header extends React.Component{
   render(){
-    const nav_titles = ["Technologies", "Products", "Patents", "Publications", "Photos", "Bio"];
+    const nav_titles = ["Technologies", "Patents", "Publications", "Photography", "Bio"];
     const nav_links = nav_titles.map(title => (<Link to={`/${title.toLowerCase()}`} className="nav-link clickable">{title}</Link>));
     return(
       <div className="header">

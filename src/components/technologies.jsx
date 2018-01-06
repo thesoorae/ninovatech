@@ -9,20 +9,21 @@ class Technologies extends React.Component{
     this.state = {
       category: null
     }
+    this.handle_cat_click = this.handle_cat_click.bind(this)
   }
 
-  on_link_click(cat){
+  handle_cat_click(idx){
     return e => {
       e.preventDefault()
       this.setState({
-        category: cat
+        category: idx
       })
     }
   }
     
   render(){
-    const categoryLinks = CATEGORIES.map(category => (<a href={`#${category.path_name}`} className="category">{category.title}</a>));
-    const categoryDetail = CATEGORIES.map(category =>(<CategoryDetail cat={category} />))
+    const categoryLinks = CATEGORIES.map((category, idx) => (<button className="category clickable" onClick={this.handle_cat_click(idx)}>{category.title}</button>));
+    const categoryDetail = (typeof(this.state.category) == "number") ? <CategoryDetail cat={CATEGORIES[this.state.category]} /> : ""
     return(
       <div className="technologies">
         <div className="cat-links">

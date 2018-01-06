@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Photos extends React.Component{
+class Photography extends React.Component{
   render(){
     return(
       <div>
@@ -11,4 +11,4 @@ class Photos extends React.Component{
 }
 
 
-export default Photos;
+export default Photography;

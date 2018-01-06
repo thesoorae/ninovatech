@@ -39,8 +39,10 @@ export const CATEGORIES = [
 
   ],
   images: [
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.20.19.jpg",
     "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540855/ninovatech/foodbev/2017-03-18_17.21.23.jpg",
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540870/ninovatech/foodbev/2017-03-18_17.30.53.jpg",
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.21.53.jpg",
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.20.19.jpg",
     "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540895/ninovatech/foodbev/2017-03-19_17.10.11.jpg", 
     "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540895/ninovatech/foodbev/2017-03-19_17.14.30.jpg",
     "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540893/ninovatech/foodbev/2017-03-19_17.03.35.jpg",
@@ -53,7 +55,6 @@ export const CATEGORIES = [
     "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540875/ninovatech/foodbev/2017-03-18_17.47.58.jpg",
     "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540863/ninovatech/foodbev/2017-03-18_17.28.21.jpg", 
     "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540861/ninovatech/foodbev/2017-03-18_17.26.13.jpg",
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.21.53.jpg",
     "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.17.52.jpg",
     "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.23.23.jpg",
 
@@ -96,7 +97,9 @@ export const CATEGORIES = [
   logos:[
     "http://res.cloudinary.com/dult7d3mc/image/upload/c_scale,w_200/v1491373733/ninovatech/RTI_SURGICAL_TEMPLOGO.jpg"
   ],
-  images:[]
+  images:[
+    "http://res.cloudinary.com/dult7d3mc/image/upload/v1514690056/scaletowidth_clvjlk.jpg"
+  ]
 }
 ];
 
