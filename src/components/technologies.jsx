@@ -12,6 +12,21 @@ class Technologies extends React.Component{
     this.handle_cat_click = this.handle_cat_click.bind(this)
   }
 
+  componentDidMount(){
+    if(window.location.hash){
+      const index_map = {
+        plastics: 0,
+        foodbev: 1, 
+        medical: 2,
+        biotech: 3
+      }
+      let hash = window.location.hash.slice(1)
+      this.setState({
+        category: index_map[hash]
+      })
+    }
+  }
+
   handle_cat_click(idx){
     return e => {
       e.preventDefault()

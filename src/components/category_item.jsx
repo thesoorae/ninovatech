@@ -12,11 +12,10 @@ class CategoryItem extends React.Component {
     this.handle_cat_click = this.handle_cat_click.bind(this);
   }
 
-  handle_cat_click(idx){
-    return e => {
-      e.preventDefault()
-     
+  handle_cat_click(){
+    window.location = `/technologies#${this.props.cat.path_name}`
   }
+
   mouseOver(){
     this.setState({hover: true});
   }
@@ -32,7 +31,7 @@ class CategoryItem extends React.Component {
     if(cat.logos.length > 0 && this.state.hover ){
       list = cat.logos.map(logo => (<img className="cat-logo" src={logo} alt="" />));
       return (
-        <div className="category-item clickable" onMouseEnter={this.mouseOver} onMouseLeave={this.mouseLeave}>
+        <div className="category-item clickable" onMouseEnter={this.mouseOver} onMouseLeave={this.mouseLeave} onClick={this.handle_cat_click}>
           <div className="tech-list">
             {list}
           </div>

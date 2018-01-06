@@ -11,7 +11,7 @@ class Home extends React.Component{
   //   $('.logo-title')
   // }
   render(){
-    const categoryItems = CATEGORIES.map((idx, category) => (<CategoryItem key={category.path_name} cat={category} idx={idx}/>));
+    const categoryItems = CATEGORIES.map(category => (<CategoryItem key={category.path_name} cat={category} />));
     return(
       <div className="home-container">
         <div className="home-header">
