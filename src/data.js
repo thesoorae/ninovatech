@@ -9,10 +9,18 @@ export const CATEGORIES = [
     "http://res.cloudinary.com/dult7d3mc/image/upload/c_scale,w_200/v1491373492/ninovatech/Dow-Chemical-Company-logo_sc5esm.jpg"
   ],
     images: [
-      "http://res.cloudinary.com/dult7d3mc/image/upload/v1492911910/filepicker-tjqia9hwsccecmyp0xtj_saran_wrap_mdxnad.jpg",
-      "http://res.cloudinary.com/dult7d3mc/image/upload/v1513141348/imageService_afdubb.jpg",
-      "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540875/ninovatech/foodbev/2017-03-19_17.04.34.jpg",
-
+      {
+        url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1492911910/filepicker-tjqia9hwsccecmyp0xtj_saran_wrap_mdxnad.jpg",
+        label: "Saran Film Extrusion and Recycling"
+      },
+      {
+        url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1513141348/imageService_afdubb.jpg",
+        label: "ZipLoc Bag Fabrication"
+      },
+      {
+        url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540875/ninovatech/foodbev/2017-03-19_17.04.34.jpg",
+        label: "Scrapless Forming Process"
+      }
      ]
 },
 {
@@ -40,24 +48,70 @@ export const CATEGORIES = [
 
   ],
   images: [
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540855/ninovatech/foodbev/2017-03-18_17.21.23.jpg",
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540870/ninovatech/foodbev/2017-03-18_17.30.53.jpg",
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.21.53.jpg",
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.20.19.jpg",
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540895/ninovatech/foodbev/2017-03-19_17.10.11.jpg", 
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540895/ninovatech/foodbev/2017-03-19_17.14.30.jpg",
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540893/ninovatech/foodbev/2017-03-19_17.03.35.jpg",
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540891/ninovatech/foodbev/2017-03-19_17.11.26.jpg",
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540890/ninovatech/foodbev/2017-03-18_17.50.18.jpg",
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540889/ninovatech/foodbev/2017-03-19_17.09.01.jpg",
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540889/ninovatech/foodbev/2017-03-19_17.07.13.jpg",
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540880/ninovatech/foodbev/2017-03-18_17.48.40.jpg",
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540880/ninovatech/foodbev/2017-03-19_17.05.42.jpg",
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540875/ninovatech/foodbev/2017-03-18_17.47.58.jpg",
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540863/ninovatech/foodbev/2017-03-18_17.28.21.jpg", 
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540861/ninovatech/foodbev/2017-03-18_17.26.13.jpg",
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.17.52.jpg",
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.23.23.jpg",
+   { 
+    url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540855/ninovatech/foodbev/2017-03-18_17.21.23.jpg",
+    label: "Microwavable Shelf Stable Food Cans"
+   },
+   {
+     url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540870/ninovatech/foodbev/2017-03-18_17.30.53.jpg",
+     label: "Multilayer Extrusion Blow Molding"
+   },
+   {
+     url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.21.53.jpg",
+     label: "Metal Can Replacement"
+   },
+   {
+    url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.20.19.jpg",
+    label: "Corona Bonding Technology",
+   },
+   {
+     url: "http://res.cloudinary.com/dult7d3mc/image/upload/a_360/v1491540895/ninovatech/foodbev/2017-03-19_17.10.11.jpg", //needs rotation
+      label: "Thermoforming Technology",
+   },
+   {
+     url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540895/ninovatech/foodbev/2017-03-19_17.14.30.jpg",
+    label: "Multilayer O2 Barrier Film" 
+   },
+   {
+     url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540893/ninovatech/foodbev/2017-03-19_17.03.35.jpg",
+     label: "Glass Container Replacement",
+   },
+   {
+     url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540891/ninovatech/foodbev/2017-03-19_17.11.26.jpg",
+     label: "Multilayer O2 Barrier Film"
+   },
+   {
+     url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540890/ninovatech/foodbev/2017-03-18_17.50.18.jpg",
+     label: "PET Stretch Blow Molding"
+   },
+   {
+    url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540889/ninovatech/foodbev/2017-03-19_17.07.13.jpg",
+    label: "Glass Container Replacement"
+   },
+   {
+     url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540880/ninovatech/foodbev/2017-03-18_17.48.40.jpg",
+     label: "Hot-fillable Heatset PET Containers",
+   },
+   {
+     url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540875/ninovatech/foodbev/2017-03-18_17.47.58.jpg",
+     label: "PET Stretch Blow Molding"
+   },
+   {
+     url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540863/ninovatech/foodbev/2017-03-18_17.28.21.jpg", 
+     label: "Retortable O2 Barrier Containers",
+    },
+    {
+      url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540861/ninovatech/foodbev/2017-03-18_17.26.13.jpg",
+      label: "Multilayer Sheet Extrusion"
+    },
+    {
+      url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.17.52.jpg",
+      label: "O2 Barrier and Scavenger Bottles"
+    },
+    {
+      url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.23.23.jpg",
+      label: "Retortable O2 Barrier Containers"
+    }
 
   ]
 },
@@ -81,9 +135,19 @@ export const CATEGORIES = [
     "http://res.cloudinary.com/dult7d3mc/image/upload/c_scale,w_200/v1491373670/ninovatech/KCI_Logo.jpg"
   ],
   images:[
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1513141504/Non-PVC-IV-Bag_rjfme3.jpg",
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1513141580/1481082350552055657_wdxkga.jpg",
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1513141700/Tiger-Woods-1110x600_xhocxi.jpg"
+    {
+      url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1513141504/Non-PVC-IV-Bag_rjfme3.jpg",
+      label: "Non-PVC IV Solution Containers"
+    },
+    {
+      url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1513141580/1481082350552055657_wdxkga.jpg",
+      label: "Needleless Access System",
+    },
+    {
+      url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1513141700/Tiger-Woods-1110x600_xhocxi.jpg",
+      label: "Biotech Drug Containers",
+    }
+    
   ]
 
 },
@@ -99,7 +163,12 @@ export const CATEGORIES = [
     "http://res.cloudinary.com/dult7d3mc/image/upload/c_scale,w_200/v1491373733/ninovatech/RTI_SURGICAL_TEMPLOGO.jpg"
   ],
   images:[
-    "http://res.cloudinary.com/dult7d3mc/image/upload/v1514690056/scaletowidth_clvjlk.jpg"
+    {
+      url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1514690056/scaletowidth_clvjlk.jpg",
+      label: "Bone Regeneration Technology Demineralized Bone Matrix"
+
+    }
+    
   ]
 }
 ];
