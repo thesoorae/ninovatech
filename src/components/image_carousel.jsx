@@ -33,14 +33,15 @@ class ImageCarousel extends React.Component {
   }
 
   render(){
-    const imgs = this.props.images.map((img, idx) => (<img className="product-img" src={img} id={`${this.props.name}-${idx}`}/>))
+    const imgs = this.props.images.map((img, idx) => (<div className="img_container"><img className="product-img" src={img} id={`${this.props.name}-${idx}`}/></div>))
     let settings = {
       dots: true,
       infinite: true,
       speed: 500,
-      slidesToShow: 3,
+      slidesToShow: 2,
       slidesToScroll: 1,
-      autoplay: true
+      autoplay: true,
+   
     }
     // setTimeout(this.timer, 3000);
     return(

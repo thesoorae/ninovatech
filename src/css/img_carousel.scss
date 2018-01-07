@@ -2,18 +2,14 @@
     width: 100%;
     overflow-x: hidden;
 }
-.img-container {
-    width: auto;
-    background: gray;
+
+.img_container {
     height: 300px;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    
 }
 .product-img {
     max-height: 300px;
-    width: auto;
+    width: 300px;
     margin: auto;
     position: relative;
 }
