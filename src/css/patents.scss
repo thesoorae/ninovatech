@@ -1,6 +1,19 @@
+@import 'shared.scss';
+
+.description {
+    color: $header;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.learn_more {
+    color: $happy_blue;
+    font-style: italic;
+}
 .patent_block {
     color: black;
-    background-color: #edf3fc;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -54,7 +67,7 @@
 .image_toggle {
     font-size: 12px;
     font-weight: bold;
-    color: gray;
+    color: $happy_blue;
     display: flex;
     flex-direction: row;
     .arrow {
@@ -65,13 +78,13 @@
          
             border-left: 7px solid transparent;
             border-right: 7px solid transparent;
-            border-top: 7px solid gray;
+            border-top: 7px solid $happy_blue;
         }
 
         &.up {
             border-left: 7px solid transparent;
             border-right: 7px solid transparent;
-            border-bottom: 7px solid gray;
+            border-bottom: 7px solid $happy_blue;
         }
     }
 

@@ -42,7 +42,7 @@ class CategoryItem extends React.Component {
       )
     } else {
       let img_url = cat.images[0].split('/upload/')
-      let img_thumbnail = img_url.join('/upload/o_90,\c_fill,h_150,w_200/')
+      let img_thumbnail = img_url.join('/upload/o_90,\c_fill,h_200,w_200/')
       return (
         <div className="category-item clickable" onMouseEnter={this.mouseOver} onMouseLeave={this.mouseLeave} onClick={this.handle_cat_click}>
           <div className="cat-image">

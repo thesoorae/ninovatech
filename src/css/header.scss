@@ -1,23 +1,29 @@
+@import 'shared.scss';
 
 .header {
   -webkit-box-shadow: -1px 22px 27px -3px rgba(0,0,0,0.09);
   -moz-box-shadow: -1px 22px 27px -3px rgba(0,0,0,0.09);
   box-shadow: -1px 22px 27px -3px rgba(0,0,0,0.09);
   height: 30px;
+  background-color: $white;
 }
 .nav-link{
-  color: black;
+  color: $header;
+  &:hover {
+    color: $gold;
+  }
 
 }
 .header-links{
-  margin-top: 20px;
   font-size: 20px;
   width: 75%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
 }
 .logo-title{
   font-size: 30px;
   font-weight: bold;
+  margin-top: -5px;
 }

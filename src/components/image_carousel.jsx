@@ -1,6 +1,8 @@
 import React from 'react';
 import '../css/img_carousel.css';
 import $ from 'jquery';
+import Slider from 'react-slick';
+
 
 class ImageCarousel extends React.Component {
   constructor(props){
@@ -32,13 +34,21 @@ class ImageCarousel extends React.Component {
 
   render(){
     const imgs = this.props.images.map((img, idx) => (<img className="product-img" src={img} id={`${this.props.name}-${idx}`}/>))
-    setTimeout(this.timer, 2000);
+    let settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true
+    }
+    // setTimeout(this.timer, 3000);
     return(
-      <div className={`carousel_container ${this.props.name}`}>
-        <div className="img-container">
+      <Slider {...settings}>
           {imgs}
-        </div>
-      </div>
+      </Slider>
+
+
     );
   }
 }

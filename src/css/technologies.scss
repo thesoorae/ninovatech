@@ -1,3 +1,12 @@
+@import 'shared.scss';
+
+.introduction {
+  font-size: 20px;
+  font-style: italic;
+  color: $header;
+  margin: 30px auto;
+  width: 80%;
+}
 .technologies{
   padding: 0 30px;
   }
@@ -7,7 +16,9 @@
   justify-content: space-around;
   margin-bottom: 30px;
 }
-.category{
+.category_button {
+  background-color: $buttons;
+  color: $white;
   font-size: 16px;
   font-weight: bold;
   width: 300px;
@@ -27,6 +38,7 @@
 }
 .tech-li{
   line-height: 1.5;
+  font-size: 18px;
 }
 .categories_container {
     display: flex;

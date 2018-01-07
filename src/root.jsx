@@ -6,7 +6,7 @@ import Technologies from './components/technologies';
 import Products from './components/products';
 import Patents from './components/patents';
 import Publications from './components/publications';
-import Photos from './components/photos';
+import Photography from './components/photography';
 import Bio from './components/bio';
 
 const Root = () => (
@@ -19,7 +19,7 @@ const Root = () => (
       <Route path="/products" component={Products}></Route>
       <Route path="/patents" component={Patents}></Route>
       <Route path="/publications" component={Publications}></Route>
-      <Route path="/photos" component={Photos}></Route>
+      <Route path="/photography" component={Photography}></Route>
       <Route path="/bio" component={Bio}></Route>
     </Route>
   </Router>

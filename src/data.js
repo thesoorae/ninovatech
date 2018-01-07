@@ -10,8 +10,9 @@ export const CATEGORIES = [
   ],
     images: [
       "http://res.cloudinary.com/dult7d3mc/image/upload/v1492911910/filepicker-tjqia9hwsccecmyp0xtj_saran_wrap_mdxnad.jpg",
+      "http://res.cloudinary.com/dult7d3mc/image/upload/v1513141348/imageService_afdubb.jpg",
       "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540875/ninovatech/foodbev/2017-03-19_17.04.34.jpg",
-      "http://res.cloudinary.com/dult7d3mc/image/upload/v1513141348/imageService_afdubb.jpg"
+
      ]
 },
 {
@@ -62,7 +63,7 @@ export const CATEGORIES = [
 },
 {
   path_name: "medical",
-  title: "Medical Devices Design & Manufacturing",
+  title: "Medical Solutions Technologies",
   tech: [
     "Parenteral Solution Delivery System",
     "Needleless Access System",

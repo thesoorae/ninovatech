@@ -12,6 +12,7 @@ class Publications extends React.Component {
     }
 
     render_pub_block(pub, idx) {
+        let click_text = pub.link.length > 0 ? "Click to read more" : ""
         return (
             <a className="patent_block" href={pub.link}>
                 <div className="num_row">
@@ -23,6 +24,9 @@ class Publications extends React.Component {
                 <div className="patent_footer">
                     <div className="patent_coauthors">Coauthors: {pub.co_authors}</div>
                 </div>
+                <div className="learn_more">
+                    {click_text}
+                </div>
             </a>
         )
     }
@@ -31,6 +35,12 @@ class Publications extends React.Component {
         let pub_blocks = PUBLICATIONS.map((pub, idx) => this.render_pub_block(pub, idx))
         return (
             <div className="patents">
+                <div className="description">
+                Dr. KZ Hong has co-authored over 15 publications in leading engineering, medical, and plastics/polymer publications
+                across his illustrious career. His rigorous research has advanced the field of polymer science. To this day, Ninovatech continues its research and development in 
+                both synthetic and natural materials and continues to contribute to the expansion of 
+                the world's knowledge pool of with new discoveries every year. 
+                </div>
                 {pub_blocks}
             </div>
         );

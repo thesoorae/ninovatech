@@ -1,6 +1,6 @@
+@import 'shared.scss';
 .category_detail {
     color: black;
-    background-color: #edf3fc;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -8,9 +8,16 @@
     padding: 20px;
     border-radius: 10px;
     text-align: left;
-    width: 100%;
+    > * {
+        min-height: 0;
+        min-width: 0;
+    }
 }
-.cat_detail_title {
-    font-size: 16px;
-    text-align: center;
+.category_text {
+    margin: 30px 0px;
+    .cat_detail_title {
+        font-size: 20px;
+        color: $header;
+        margin: 30px 0px;
+    }
 }

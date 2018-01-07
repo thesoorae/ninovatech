@@ -16,11 +16,13 @@ class CategoryDetail extends React.Component {
     return(
       <div className="category_detail" id={cat.path_name}>
         <ImageCarousel images={cat.images} name={cat.path_name}/>
-        <h2 className="cat_detail_title">
-          {cat.title}
-        </h2>
-        <div className="tech_detail_list">
-          {list}
+        <div className="category_text">
+          <h2 className="cat_detail_title">
+            {cat.title}
+          </h2>
+          <div className="tech_detail_list">
+            {list}
+          </div>
         </div>
       </div>
     );
