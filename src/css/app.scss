@@ -18,8 +18,8 @@
 }
 
 .container {
-    padding: 50px;
-    background-color: $white;
+    // padding: 50px;
+    background-color: $main_bg;
     // background-color: black;
     // > * {
     //     color: white;
@@ -28,7 +28,9 @@
 
 .footer {
     height: 50px;
-    padding: 20px;
+    background-color: $buttons;
+    margin-top: 50px;
+    // padding: 20px;
 }
 
 .App-intro {

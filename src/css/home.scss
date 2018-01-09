@@ -31,19 +31,18 @@
 
 .description_container {
   width: 100%;
-  background-color: $blue;
+  background-color: $main_bg;
   min-height: 500px;
   .description {
-    font-style: italic;
     width: 80%;
     margin: auto;
     text-align: center;
-    color: $white;
+    color: $copy;
     padding: 80px;
     font-size: 18px;
     .description-title {
       margin: 0 20px 20px;
-      color: $white;
+      color: $header;
       font-style: normal;
     }
   }
@@ -56,7 +55,7 @@
   flex-direction: row;
   justify-content: space-around;
   font-size: 24px;
-  background-color: white;
+  background-color:$alternate_bg;
   min-height: 400px;
 
   @media (max-width: 700px){
@@ -70,14 +69,14 @@
 
 .contact_container {
   min-height: 400px;
-  background-color: $happy_blue;
+  background-color: $main_bg;
   display: flex;
   justify-content: center;
   flex-direction: column;
   .contact {
     font-size: 40px;
     text-align: center;
-    color: white;
+    color: $header;
   }
   
 }

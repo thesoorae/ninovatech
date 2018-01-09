@@ -7,6 +7,7 @@ import Home from './components/home';
 import Technologies from './components/technologies';
 import Products from './components/products';
 import Patents from './components/patents';
+import Footer from './components/footer';
 
 
 class App extends Component {
@@ -17,7 +18,7 @@ class App extends Component {
         <div className="container">
           {this.props.children}
           </div>
-        <div className="footer" />
+        <Footer />
       </div>
     );
   }

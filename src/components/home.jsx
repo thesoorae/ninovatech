@@ -3,6 +3,7 @@ import '../css/home.css';
 import {CATEGORIES} from '../data';
 import CategoryItem from './category_item';
 import Header from './header';
+import Footer from './footer';
 
 
 class Home extends React.Component{
@@ -27,8 +28,7 @@ class Home extends React.Component{
               Achieving the impossible
             </h2>
             Ninovatech brings over 40 years of experience in pioneering synthetic and natural material technologies. The technologies
-            developed under Ninovatech's founder have vastly improved the quality of life for people around the globe. You only need to 
-            step into a supermarket aisle or hospital to see what we have helped to make a reality. 
+            developed under Ninovatech's founder have vastly improved the quality of life for people around the globe. 
             <br />
             <br />
             From the
@@ -44,11 +44,8 @@ class Home extends React.Component{
           <div className="categories">
             {categoryItems}
           </div>
-          <div className="contact_container">
-            <div className="contact">
-              Contact us to learn more
-            </div>
-          </div>
+          <Footer />
+          
           
         </div>
       </div>

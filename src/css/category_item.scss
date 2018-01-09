@@ -2,10 +2,10 @@
 
 .category-item{
   width: 250px;
-  border: solid 2px $light;
+  border: solid 2px $blue;
   border-radius: 5px;
   overflow: hidden;
-  background-color: $light;
+  background-color: $main_bg;
   height: 350px;
   position: relative;
   // display: flex;
@@ -19,6 +19,7 @@
     text-align: center;
     position: absolute;
     bottom: 0;
+    width: 100%;
   }
 
   .cat-image {

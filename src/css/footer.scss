@@ -1,0 +1,14 @@
+@import "shared.scss";
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    a {
+        text-transform: uppercase;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-right: 50px;
+        color: $alternate_bg;
+    }
+}

@@ -1,29 +1,42 @@
 @import 'shared.scss';
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
 
 .header {
   -webkit-box-shadow: -1px 22px 27px -3px rgba(0,0,0,0.09);
   -moz-box-shadow: -1px 22px 27px -3px rgba(0,0,0,0.09);
   box-shadow: -1px 22px 27px -3px rgba(0,0,0,0.09);
-  height: 30px;
-  background-color: $white;
+  height: 10px;
+  background-color: $buttons;
 }
 .nav-link{
-  color: $header;
+  color: white;
+  
   &:hover {
     color: $gold;
   }
 
 }
 .header-links{
-  font-size: 20px;
-  width: 75%;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 60%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  a {
+      @include skinny_text;
+  }
 
 }
 .logo-title{
   font-size: 30px;
   font-weight: bold;
-  margin-top: -5px;
+  margin-top: -10px;
+  font-family: 'Russo One', sans-serif;
+  color: white;
+  &:active {
+    color: white;
+  }
+
 }

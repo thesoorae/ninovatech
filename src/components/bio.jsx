@@ -1,10 +1,10 @@
 import React from 'react';
-import './bio.css';
+import '../css/bio.css';
 
 class Bio extends React.Component{
   render(){
     return(
-      <div>
+      <div className="bio_container">
         <div className="img-text">
         <img className="bio-img" src="http://res.cloudinary.com/dult7d3mc/image/upload/v1491540694/ninovatech/kz.png" />
         <div className="bio-text">
@@ -27,6 +27,8 @@ class Bio extends React.Component{
               <br />
               In addition to his work in polymer science and life sciences, Dr. Hong is an avid photographer and world traveler. 
               </p>
+              <br />
+              <br />
               <a href="/photography">Photo Gallery</a>
         </div>
         </div>

@@ -1,16 +1,110 @@
 export const CATEGORIES = [
   {
+    path_name: "foodbev",
+    title: "Food & Beverage Packaging",
+    desc: "To experience the transformative power of our material technologies, one needs only to step into a supermarket aisle or hospital. The oxygen-proof containers and lightweight bottles that enable products to exist on the shelves are just some of the materials Ninovatech has helped create.",
+    tech: [
+      "Corona Bonding Technology",
+      "Tamper-evident Containers",
+      "Multilayer Sheet Extrusion",
+      "Thermoforming Technology",
+      "Multilayer Extrusion Blow Molding",
+      "Multilayer Co-injection Blow Molding",
+      "PET Stretch Blow Molding",
+      "Hot-fillable Heatset PET Containers",
+      "Retortable O2 Barrier Containers",
+      "Multilayer O2 Barrier Film",
+      "O2 Barrier and Scavenger Bottles",
+      "Microwavable Shelf Stable Food Cans",
+      "Glass Container Replacement",
+      "Metal Can Replacement"
+    ],
+    logos: [
+      "http://res.cloudinary.com/dult7d3mc/image/upload/c_scale,w_200/v1491373582/ninovatech/1000px-Rexam_logo.svg_tnzh7x.png",
+      "http://res.cloudinary.com/dult7d3mc/image/upload/c_scale,w_200/v1491373553/ninovatech/american-national-can-73709242_kcudlh.jpg"
+
+    ],
+    images: [
+      {
+        url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540855/ninovatech/foodbev/2017-03-18_17.21.23.jpg",
+        label: "Microwavable Shelf Stable Food Cans"
+      },
+      {
+        url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540870/ninovatech/foodbev/2017-03-18_17.30.53.jpg",
+        label: "Multilayer Extrusion Blow Molding"
+      },
+      {
+        url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.21.53.jpg",
+        label: "Metal Can Replacement"
+      },
+      {
+        url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.20.19.jpg",
+        label: "Corona Bonding Technology",
+      },
+      {
+        url: "http://res.cloudinary.com/dult7d3mc/image/upload/a_360/v1491540895/ninovatech/foodbev/2017-03-19_17.10.11.jpg", //needs rotation
+        label: "Thermoforming Technology",
+      },
+      {
+        url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540895/ninovatech/foodbev/2017-03-19_17.14.30.jpg",
+        label: "Multilayer O2 Barrier Film"
+      },
+      {
+        url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540893/ninovatech/foodbev/2017-03-19_17.03.35.jpg",
+        label: "Glass Container Replacement",
+      },
+      {
+        url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540891/ninovatech/foodbev/2017-03-19_17.11.26.jpg",
+        label: "Multilayer O2 Barrier Film"
+      },
+      {
+        url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540890/ninovatech/foodbev/2017-03-18_17.50.18.jpg",
+        label: "PET Stretch Blow Molding"
+      },
+      {
+        url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540889/ninovatech/foodbev/2017-03-19_17.07.13.jpg",
+        label: "Glass Container Replacement"
+      },
+      {
+        url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540880/ninovatech/foodbev/2017-03-18_17.48.40.jpg",
+        label: "Hot-fillable Heatset PET Containers",
+      },
+      {
+        url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540875/ninovatech/foodbev/2017-03-18_17.47.58.jpg",
+        label: "PET Stretch Blow Molding"
+      },
+      {
+        url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540863/ninovatech/foodbev/2017-03-18_17.28.21.jpg",
+        label: "Retortable O2 Barrier Containers",
+      },
+      {
+        url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540861/ninovatech/foodbev/2017-03-18_17.26.13.jpg",
+        label: "Multilayer Sheet Extrusion"
+      },
+      {
+        url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.17.52.jpg",
+        label: "O2 Barrier and Scavenger Bottles"
+      },
+      {
+        url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.23.23.jpg",
+        label: "Retortable O2 Barrier Containers"
+      }
+
+    ]
+  },
+  {
   path_name: "plastics",
   title: "Plastics Fabrication Technologies",
   tech: ["Shear-induced Crystallization", "Feedblock Co-extrusion", "Micro-layer Co-extrusion",
   "Scrapless Forming Process", "Saran Film Extrusion and Recycling", "ZipLoc Bag Fabrication",
   "Super-fine Fiber Fabrication"],
+  desc: "In the 80's, glass, metal, and textile materials were the predominant methods of food storage. These materials were heavy, bulky, and difficult to transport. Dr. KZ's research helped to bring the production of ultra-lightweight plastic sheet and film into a reality. The modern conveniences of sandwich bags and cling wrap would not be possible without the work of Dr. Hong and numerous other scientists.",
   logos:[
     "http://res.cloudinary.com/dult7d3mc/image/upload/c_scale,w_200/v1491373492/ninovatech/Dow-Chemical-Company-logo_sc5esm.jpg"
   ],
     images: [
       {
-        url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1492911910/filepicker-tjqia9hwsccecmyp0xtj_saran_wrap_mdxnad.jpg",
+        url: "http://res.cloudinary.com/dult7d3mc/image/upload/e_auto_saturation/v1515477805/89c5f16b4be84b2ca7491a6e9dcedca0_l3avf9.jpg",
         label: "Saran Film Extrusion and Recycling"
       },
       {
@@ -23,101 +117,11 @@ export const CATEGORIES = [
       }
      ]
 },
-{
-  path_name: "foodbev",
-  title: "Food & Beverage Packaging Technologies",
-  tech: [
-    "Corona Bonding Technology",
-    "Tamper-evident Containers",
-    "Multilayer Sheet Extrusion",
-    "Thermoforming Technology",
-    "Multilayer Extrusion Blow Molding",
-    "Multilayer Co-injection Blow Molding",
-    "PET Stretch Blow Molding",
-    "Hot-fillable Heatset PET Containers",
-    "Retortable O2 Barrier Containers",
-    "Multilayer O2 Barrier Film",
-    "O2 Barrier and Scavenger Bottles",
-    "Microwavable Shelf Stable Food Cans",
-    "Glass Container Replacement",
-    "Metal Can Replacement"
-  ],
-  logos:[
-    "http://res.cloudinary.com/dult7d3mc/image/upload/c_scale,w_200/v1491373582/ninovatech/1000px-Rexam_logo.svg_tnzh7x.png",
-    "http://res.cloudinary.com/dult7d3mc/image/upload/c_scale,w_200/v1491373553/ninovatech/american-national-can-73709242_kcudlh.jpg"
 
-  ],
-  images: [
-   { 
-    url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540855/ninovatech/foodbev/2017-03-18_17.21.23.jpg",
-    label: "Microwavable Shelf Stable Food Cans"
-   },
-   {
-     url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540870/ninovatech/foodbev/2017-03-18_17.30.53.jpg",
-     label: "Multilayer Extrusion Blow Molding"
-   },
-   {
-     url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.21.53.jpg",
-     label: "Metal Can Replacement"
-   },
-   {
-    url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.20.19.jpg",
-    label: "Corona Bonding Technology",
-   },
-   {
-     url: "http://res.cloudinary.com/dult7d3mc/image/upload/a_360/v1491540895/ninovatech/foodbev/2017-03-19_17.10.11.jpg", //needs rotation
-      label: "Thermoforming Technology",
-   },
-   {
-     url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540895/ninovatech/foodbev/2017-03-19_17.14.30.jpg",
-    label: "Multilayer O2 Barrier Film" 
-   },
-   {
-     url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540893/ninovatech/foodbev/2017-03-19_17.03.35.jpg",
-     label: "Glass Container Replacement",
-   },
-   {
-     url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540891/ninovatech/foodbev/2017-03-19_17.11.26.jpg",
-     label: "Multilayer O2 Barrier Film"
-   },
-   {
-     url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540890/ninovatech/foodbev/2017-03-18_17.50.18.jpg",
-     label: "PET Stretch Blow Molding"
-   },
-   {
-    url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540889/ninovatech/foodbev/2017-03-19_17.07.13.jpg",
-    label: "Glass Container Replacement"
-   },
-   {
-     url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540880/ninovatech/foodbev/2017-03-18_17.48.40.jpg",
-     label: "Hot-fillable Heatset PET Containers",
-   },
-   {
-     url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540875/ninovatech/foodbev/2017-03-18_17.47.58.jpg",
-     label: "PET Stretch Blow Molding"
-   },
-   {
-     url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540863/ninovatech/foodbev/2017-03-18_17.28.21.jpg", 
-     label: "Retortable O2 Barrier Containers",
-    },
-    {
-      url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540861/ninovatech/foodbev/2017-03-18_17.26.13.jpg",
-      label: "Multilayer Sheet Extrusion"
-    },
-    {
-      url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.17.52.jpg",
-      label: "O2 Barrier and Scavenger Bottles"
-    },
-    {
-      url: "http://res.cloudinary.com/dult7d3mc/image/upload/v1491540856/ninovatech/foodbev/2017-03-18_17.23.23.jpg",
-      label: "Retortable O2 Barrier Containers"
-    }
-
-  ]
-},
 {
   path_name: "medical",
-  title: "Medical Solutions Technologies",
+  title: "Medical & Healthcare Technologies",
+  desc: "The majority of Dr. Hong's career has been spent working on materials for medical and healthcare applications. He has pioneered multiple facets of modern intravenous fluid delivery systems, patented tamper-proof pharmaceutical containers, and devices for pain-free, needleless access.",
   tech: [
     "Parenteral Solution Delivery System",
     "Needleless Access System",
@@ -154,6 +158,7 @@ export const CATEGORIES = [
 {
   path_name: "biotech",
   title: "Implantable Biologics Technology",
+  desc: "The most recent decade of Dr. Hong's career has been dedicated to life sciences and improving and prolonging human health. His research has shifted focus to examining how synthetic and natural materials interact with the human body and can be utilized to promote regeneration, prevent hemorraghing, improve circulation and tissue health, and much more.",
   tech:[
     "Bone Regeneration Technology Demineralized Bone Matrix",
     "PMP2 Growth Factor Technology",
@@ -174,6 +179,15 @@ export const CATEGORIES = [
 ];
 
 export const PATENTS = [
+  {
+    date: Date.parse("Dec 5, 2017"),
+    title: "System for support and thermal control",
+    number: "US 9835344 B2",
+    abstract: "In various embodiments, a support surface cooling device configured to reduce the skin temperature of a patient.",
+    link: "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=9835344.PN.&OS=PN/9835344RS=PN/9835344",
+    images: ["http://res.cloudinary.com/dult7d3mc/image/upload/v1515393294/patent_bdft69.png"]
+    
+  },
   {
     date: Date.parse("Jan 25, 1994"),
     title: "Barrier composition and articles made therefrom",
@@ -356,7 +370,7 @@ export const PUBLICATIONS = [
     link: "https://books.google.com/books?id=X8NmH9jcJmQC&pg=PA123&lpg=PA123",
     title: "Medical Plastics: Degradation Resistance and Failure Analysis",
     article: "Controlled Ductility Loss of Polycarbonate Through Steam Sterilization",
-    co_authors: "Chuan Qin",
+    authors: "KZ Hong, Chuan Qin",
     date: 2008,
     abstract: ""
   },
@@ -364,6 +378,7 @@ export const PUBLICATIONS = [
     link: "http://onlinelibrary.wiley.com/doi/10.1002/vnl.10123/abstract",
     title: "Vinyl and Additive Technology Vol: 10123",
     article: "Poly(vinyl chloride) in medical device and packaging applications",
+    authors: "KZ Hong",
     date: 1996,
     abstract: "Poly(vinyl chloride) (PVC) is the leading polymeric material used in medical device and packaging applications in terms of total volume consumed.It offers a uniquely broad range of properties for a wide variety of applications in the medical and health care industry.It fulfills an extensive range of performance and processing requirements such as gloss, transparency, chemical resistance, scuff resistance, flexibility, bondability, sterilizability by steam, ETO, or high energy irradiation.This paper examines fundamental chemsitry and physical structure of PVC to provide a clear insight and a better understanding on how versatile properties and performance are rendered.The paper also illustrates how specific mechanical and thermal properties can be tailored via compounding and fabrication processes to serve specific purposes in medical applications."
   },
@@ -372,7 +387,7 @@ export const PUBLICATIONS = [
     title: "Medical Plastics and Biomaterials Magazine",
     article: "Explaining Ductility Loss in Steam-Sterilized Polycarbonate",
     date: 1996,
-    co_authors: "Chuan Qin, Lecon Woo",
+    authors: "K. Z. Hong, Chuan Qin, and Lecon Woo",
     abstract: "POLYCARBONATE IS ONE OF THE VERY FEW POLYMERS THAT HAVE GLASS-TRANSITION (TG) AND HEAT-DEFLECTION TEMPERATURES (HDT) HIGH ENOUGH TO WITHSTAND NORMAL STEAM STERILIZATION CONDITIONS IN MEDICAL DEVICE APPLICATIONS. OTHER STEAM-STERILIZABLE POLYMERS INCLUDE POLYSULFONES AND POLY(ETHERIMIDE).2­4 AMONG THESE MATERIALS, POLYCARBONATE REMAINS THE MOST ATTRACTIVE AND ECONOMICALLY VIABLE BECAUSE OF ITS EXCELLENT COMBINATION OF PERFORMANCE, PROCESSIBILITY, AND COST. HOWEVER, IT HAS BEEN WIDELY REPORTED THAT POLYCARBONATE QUICKLY LOSES ITS DUCTILITY OR IMPACT PROPERTIES FOLLOWING REPEATED STEAM STERILIZATION CYCLES."
   },
   {
@@ -380,7 +395,7 @@ export const PUBLICATIONS = [
     title: "Journal of Reinforced Plastics and Composites",
     article: "ESCR Behavior of Plastic Materials in Medical Environments",
     date: 2001,
-    co_authors: "Chuan Qin, Y.S.Ding, H.Dhyani, T.Kivlehan, M.Monaghan, J.Penn, L.Woo",
+    authors: "Chuan Qin, Y. S. Ding, H. Dhyani, T. Kivlehan, K. Z. Hong, M. Monaghan, J. Penn, L. Woo",
     abstract: "Besides other facets of product development, it is imperative for medical device manufacturers to take great efforts through proper evaluation and consideration of material properties under practical conditions to prevent product failure at the end-uses. The environmental stress crack (ESCR) induced by chemical agents plays a significant role on material performances. In this contribution, in-depth studies have been carried out on different medical plastic materials, such as polycarbonate, copolyesters, ABS, acrylics, rigid thermoplastic polyurethane and their blends. More attention will be focused on a copolyester material for its unique ESCR behavior. Variation of chemical agents (such as different types of hospital disinfection solutions) have great impacts on physical and functional properties. Various plastics shows distinct environmental stress cracking phenomena under different conditions. Mechanisms of ESCR phenomenon under different environments have been explored. Fibril reinforcement by cold crystallization and chain session by hydrolysis of the copolyester may have contributed to its excellent chemical resistance against a wide range of chemicals and its catastrophic failure in acidic or basic environment. In addition, appropriate definition of product failures is also critical in making materials decisions."
   },
   {
@@ -388,7 +403,7 @@ export const PUBLICATIONS = [
     title: "Journal of Applied Medical Polymers",
     article: "Environmental-Stress-Crack Resistance of Rigid Thermoplastic Polyurethane",
     date: 1998,
-    co_authors: " C. Qin, S. Ding, V. Zepchi, H. Dhyani",
+    authors: " C. Qin, S. Ding, V. Zepchi, H. Dhyani and K. Z. Hong",
     abstract: "Besides other facets of product development, it is imperative for medical device manufacturers to take great efforts through proper evaluation and consideration of material properties under practical conditions to prevent product failure at the end-uses. The environmental stress crack (ESCR) induced by chemical agents plays a significant role on material performances. In this contribution, in-depth studies have been carried out on different medical plastic materials, such as polycarbonate, copolyesters, ABS, acrylics, rigid thermoplastic polyurethane and their blends. More attention will be focused on a copolyester material for its unique ESCR behavior. Variation of chemical agents (such as different types of hospital disinfection solutions) have great impacts on physical and functional properties. Various plastics shows distinct environmental stress cracking phenomena under different conditions. Mechanisms of ESCR phenomenon under different environments have been explored. Fibril reinforcement by cold crystallization and chain session by hydrolysis of the copolyester may have contributed to its excellent chemical resistance against a wide range of chemicals and its catastrophic failure in acidic or basic environment. In addition, appropriate definition of product failures is also critical in making materials decisions."
   },
   {
@@ -396,7 +411,7 @@ export const PUBLICATIONS = [
     title: "SPE ANTEC",
     article: "Effect of Therapeutic Fluids and Hospital Disinfection Solutions on Plastic Medical Devices",
     date: 1998,
-    co_authors: "C. Qin, Y. S. Ding, H. Dhyani, M. Monaghan, V. Zepchi and L. Woo",
+    authors: "C. Qin, Y. S. Ding, H. Dhyani, K. Z. Hong, M. Monaghan, V. Zepchi and L. Woo",
     abstract: "Besides other facets of product development, it is imperative for medical device manufacturers to take great efforts through proper evaluation and consideration of material properties under practical conditions to prevent product failure at the end-uses. The environmental stress crack (ESCR) induced by chemical agents plays a significant role on material performances. In this contribution, in-depth studies have been carried out on different medical plastic materials, such as polycarbonate, copolyesters, ABS, acrylics, rigid thermoplastic polyurethane and their blends. More attention will be focused on a copolyester material for its unique ESCR behavior. Variation of chemical agents (such as different types of hospital disinfection solutions) have great impacts on physical and functional properties. Various plastics shows distinct environmental stress cracking phenomena under different conditions. Mechanisms of ESCR phenomenon under different environments have been explored. Fibril reinforcement by cold crystallization and chain session by hydrolysis of the copolyester may have contributed to its excellent chemical resistance against a wide range of chemicals and its catastrophic failure in acidic or basic environment. In addition, appropriate definition of product failures is also critical in making materials decisions."
   },
   {
@@ -404,15 +419,15 @@ export const PUBLICATIONS = [
     title: "Polymer Engineering and Science Vol 19",
     article: "Strain-induced crystallization, Part III: Theory",
     date: 1979,
-    co_authors: "GSY Yeh",
+    authors: "G. S. Y. Yeh, K.Z.Hong",
     abstract: "A nucleation theory for strain-induced crystallization is formulated to explain and to predict the effects of molecular strain on crystallization kinetics and crystallite size. Unlike any current theories that have based their formulations on some assumed extended-chain line nuclei or folded-chain crystals, the present theory avoids all assumptions concerning the crystal morphology. It is based on experimental findings which indicate limited crystal growth in the strain direction, following a reciprocal dependence of crystal thickness on supercooling ΔT. (ΔT = Tmath image, − T, where the equilibrium melting temperature, Tmath image, is a variable dependent on degree of molecular strain prior to strain-induced crystallization.)"
   },
   {
-    link: "http://onlinelibrary.wiley.com/doi/10.1002/pen.760190605/full",
+    link: "http://onlinelibrary.wiley.com/doi/10.1002/pen.760190606/full",
     title: "Polymer Engineering and Science Vol 19",
     article: "Strain-induced crystallization, Part IV: Induction time analysis",
     date: 1979,
-    co_authors: "G.S.Y. Yeh, D.L. Krueger",
+    authors: "G. S. Y. Yeh, K.Z.Hong, D.L.Krueger",
     abstract: "The empirical equation, 1/ti = AeEi/RT, which expresses the exponential dependence of the reciprocal of crystallization induction time, ti, has been analyzed and shown to be equivalent to the nucleation rate equations derived earlier in Part III (1). Consequently we have used the ti measurements obtained earlier by Krueger and Yeh to calculate not only the nucleation rate enhancements but also the melting point elevations, the relative crystal thickness changes and molecular coil extension ratios of shear-crystallization polyethylene."
   },
   {
@@ -420,7 +435,7 @@ export const PUBLICATIONS = [
     title: "WOUNDS Vol 23",
     article: "Strain-induced crystallization, Part III: Theory",
     date: 2011,
-    co_authors: "Chris Lessing, PhD; Paul Slack, PhD; Deepak Kilpadi, PhD; Amy McNulty, PhD",
+    authors: "Chris Lessing, PhD; Paul Slack, PhD; KZ Hong, PhD; Deepak Kilpadi, PhD; Amy McNulty, PhD",
     abstract: " Negative pressure wound therapy (NPWT) with reticulated open-cell foam(ROCF) dressings(ROCF G, V.A.C.® GranuFoam™ Dressing, KCI USA, Inc, San Antonio, TX) creates a healing environment that removes wound exudates, reduces edema, and promotes perfusion and granulation tissue formation."
   },
   {
@@ -428,7 +443,7 @@ export const PUBLICATIONS = [
     title: "Polymers in Medical Applications",
     article: "Clear Plastics for Medical Applications and Packaging",
     date: 1994,
-    co_authors: "",
+    authors: "KZ Hong",
     abstract: "A review is given of materials used in the medical device and packaging industry that require see-through clarity. Physical properties are discussed."
   },
   {
@@ -436,15 +451,15 @@ export const PUBLICATIONS = [
     title: "TECHNICAL PAPERS OF THE ANNUAL TECHNICAL CONFERENCE - SOCIETY OF PLASTICS ENGINEERS INCORPORATED, vol. 3, pp. 3185 - 3190. SOCIETY OF PLASTICS ENGINEERS INC",
     article: "Effects of Therapeutic Fluids and Hospital Disinfection Solutions on Plastic Medical Devices.",
     date: 1998,
-    co_authors: "Qin, C., S.Ding, H.Dhyani, M.Monaghan, V.Zepchi, and L.Woo.",
+    authors: "Qin, C., S.Ding, H.Dhyani, K.Hong, M.Monaghan, V.Zepchi, and L.Woo.",
     abstract: ""
   },
   {
-    link: "",
+    link: "https://www.researchgate.net/publication/294598130_PUTTING_REGRIND_TO_WORK_IN_MARKING_BARRIER_SHEET",
     title: " PLASTICS ENGINEERING 42, no. 2 (1986): 25-28.",
     article: "PUTTING REGRIND TO WORK IN MAKING BARRIER SHEET.",
     date: 1998,
-    co_authors: "KLING, TJ, EM JORGE, SJ KINCAID, and JR POWERS.",
+    authors: "KLING TJ, HONG KZ, EM JORGE, SJ KINCAID, and JR POWERS.",
     abstract: ""
   },
   {
@@ -452,15 +467,15 @@ export const PUBLICATIONS = [
     title: "Journal of Wound Ostomy & Continence Nursing Vol 42",
     article: "Standardizing Support Surface Testing and Reporting: A National Pressure Ulcer Advisory Panel Executive Summary",
     date: 1998,
-    co_authors: "Stone, Arthur; Brienza, David; Call, Evan; Fontaine, Rick; Goldberg, Margaret; Jordan, Rosalyn; Lachenbruch, Charlie; LaFleche, Patrick; Sylvia, Cindy",
+    authors: "Stone, Arthur; Brienza, David; Call, Evan; Fontaine, Rick; Goldberg, Margaret; Hong, K. Z.; Jordan, Rosalyn; Lachenbruch, Charlie; LaFleche, Patrick; Sylvia, Cindy",
     abstract: "In 2001, the National Pressure Ulcer Advisory Panel's Research Committee identified the need to create uniform terminology, test methods, and reporting technical standards for support surfaces. As a result, the S3I Committee was formed and initial meetings of interested stakeholders who included clinicians, researchers, academics, manufacturers, providers, and regulators were held. The group's initial goal was to (1) establish common language to facilitate understanding by developing standardized terminology for describing and discussing support surfaces, (2) establish a suite of standardized tests of performance capable of repeatedly, reliably, and accurately reporting upon characteristics common to all support surfaces that are believed to be related to the extrinsic risk factors associated with skin breakdown, as indicated by the literature to date, and (3) identify and standardize methods to evaluate the effective life of a support surface. The purpose of this article was to summarize the current status of the effort of the Support Surface Standards Initiative (S3I) Committee to identify and standardize methods to evaluate the many characteristic factors that determine the effective life of a support surface."
   },
   {
-    link: "",
+    link: "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.883.9187&rep=rep1&type=pdf",
     title: "BULLETIN OF THE AMERICAN PHYSICAL SOCIETY, vol. 25",
     article: "MELTING BEHAVIOR OF STRAIN-CRYSTALLIZED POLYMERS.",
     date: 1980,
-    co_authors: "G.S.Y. Yeh",
+    authors: "G.S.Y. Yeh and KZ Hong",
     abstract: ""
   },
   {
@@ -468,7 +483,7 @@ export const PUBLICATIONS = [
     title: "BULLETIN OF THE AMERICAN PHYSICAL SOCIETY, vol. 24",
     article: "EQUILIBRIUM MELTING TEMPERATURE OF STRAIN-CRYSTALLIZED POLYMERS.",
     date: 1979,
-    co_authors: "G.S.Y. Yeh",
+    authors: "G.S.Y. Yeh",
     abstract: ""
   },
 

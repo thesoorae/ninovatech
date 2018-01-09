@@ -2,7 +2,6 @@ html, body, p, a, ul, li, ol, h1, h2, h3, span, div {
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-family: sans-serif;
 }
 div {
   font-size: 15px;

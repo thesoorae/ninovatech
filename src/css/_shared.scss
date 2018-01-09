@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=News+Cycle|Lato|Source+Sans+Pro');
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
-$header: #5E738E;
-$red: #5E738E;
+$header: black;
 $blue: #7B92B1;
 $light: #E3F1FE;
 $lighter: #E1EAEF;
@@ -13,12 +12,40 @@ $links: #FC5E6C;
 $buttons: $blue;
 $gold: #F0D41D;
 $gray: #D0C9B6;
-$copy: black;
+$copy: #666666;
+$alternate_bg: #F7F7F7;
+$main_bg: white;
+$buttons:#333333;
+$red: #CA0813;
+$border: #FBBB38;
 
 div, span, a, p, body, h1, h2, h3, button {
-    font-family: 'Source Sans Pro',sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
+@mixin description_text {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 20px;
+}
+@mixin skinny_text {
+    font-family: 'News Cycle', sans-serif;
+}
+
+a {
+    color: $red;
+}
 .slick-list {
     height: 220px;
+}
+
+.alt_bg {
+    background-color: $alternate_bg !important; 
+}
+
+.header_img {
+    height: 400px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }

@@ -7,7 +7,7 @@ class Technologies extends React.Component{
   constructor(props){
     super(props)
     this.state = {
-      category: null
+      category: 0
     }
     this.handle_cat_click = this.handle_cat_click.bind(this)
   }
@@ -15,8 +15,8 @@ class Technologies extends React.Component{
   componentDidMount(){
     if(window.location.hash){
       const index_map = {
-        plastics: 0,
-        foodbev: 1, 
+        foodbev: 0,
+        plastics: 1, 
         medical: 2,
         biotech: 3
       }
@@ -37,23 +37,25 @@ class Technologies extends React.Component{
   }
     
   render(){
-    const categoryLinks = CATEGORIES.map((category, idx) => (<button className="category_button clickable" onClick={this.handle_cat_click(idx)}>{category.title}</button>));
+    // const categoryLinks = CATEGORIES.map((category, idx) => (<button className="category_button clickable" onClick={this.handle_cat_click(idx)}>{category.title}</button>));
+    const categoryLinks = CATEGORIES.map((category, idx) => (<a href={`#${category.path_name}`} className="button_container"><button className="category_button clickable">{category.title}</button></a>));
     let categoryDetail, introduction_section
     let intro_text = "Ninovatech's research has revolutionized the world of plastics, food and beverage packaging, medical and hospital equipment, and life sciences. Learn more about the specific technologies Ninovatech has brought to consumer, industrial, and institutional use"
-    if (typeof(this.state.category) == "number") {
-      categoryDetail = <CategoryDetail cat={CATEGORIES[this.state.category]} />
-    } else {
-      introduction_section = <div className="introduction">{intro_text}</div>
-    }
+    introduction_section = <div className="introduction">{intro_text}</div>
+    categoryDetail = <CategoryDetail cat={CATEGORIES[this.state.category]} />
+    let category_details = CATEGORIES.map((category, idx) => (<CategoryDetail cat={category} idx={idx}/>))
     
     return(
       <div className="technologies">
-        {introduction_section}
-        <div className="cat-links">
-        {categoryLinks}
+      <div className="header_img technologies" />
+      <div className="technologies_top">
+          {introduction_section}
+          <div className="cat-links">
+          {categoryLinks}
+          </div>
         </div>
         <div className="categories_container">
-          {categoryDetail}
+          {category_details}
         </div>
       </div>
     );

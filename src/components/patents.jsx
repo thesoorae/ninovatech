@@ -12,7 +12,6 @@ class Patents extends React.Component{
   }
 
   render_related_patents(patent){
-    console.log("patent related", patent.related)
     if (patent.related && patent.related.length > 0 ){
       let related_links = patent.related.map((rel) => {
         return (
@@ -71,7 +70,9 @@ class Patents extends React.Component{
         <div className="images">
           {patent.images.map(img => {
             return (
-              <img className="patent_image" src={img} />
+              <div className="image_container">
+                <img className="patent_image" src={img} />
+              </div>
             )}
             )}
         </div>
@@ -79,8 +80,10 @@ class Patents extends React.Component{
     }
   }
   render_patent_block(patent, idx){
+    let background_class = idx % 2 == 0 ? "alt_bg" : ""
+
     return (
-      <a className="patent_block" href={patent.link}>
+      <a className={`patent_block ${background_class}`} href={patent.link} target="_blank">
         <div className="num_row">
           <h2 className="patent_num">{patent.number}</h2>
           <div className="patent_date">{patent.date}</div>
@@ -101,6 +104,11 @@ class Patents extends React.Component{
     let patent_blocks = PATENTS.map((patent, idx) => this.render_patent_block(patent, idx))
     return(
       <div className="patents">
+        <div className="header_img patents" />
+        <div className="description">
+        Dr. Hong holds multiple patents for material and product inventions in the US, Europe, and Asia. His patent 
+        have revolutionized material technologies in the fields of healthcare and consumer products.
+        </div>
         {patent_blocks}
       </div>
     );

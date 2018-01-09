@@ -1,27 +1,24 @@
 import React from 'react';
 import Slider from 'react-slick';
+import Gallery from 'react-photo-gallery';
+
 
 class Photography extends React.Component{
   constructor(props){
     super(props)
   }
   render(){
-    let settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true
-    }
+    
     let images = []
     for(let i=1;i<=12;i++){
-      images.push(<img className="photo" src={`../images/photo${i}.png`} />)
+      images.push({
+        src:`images/photo${i}.png`,
+        width: 4,
+        height: 3,
+      })
     }
     return(
-      <Slider {...settings}>
-      {images}
-      </Slider>
+      <Gallery photos={images} />
     );
   }
 }

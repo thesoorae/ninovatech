@@ -13,8 +13,9 @@ class Publications extends React.Component {
 
     render_pub_block(pub, idx) {
         let click_text = pub.link.length > 0 ? "Click to read more" : ""
+        let background_class = idx%2 == 0 ? "alt_bg" : ""
         return (
-            <a className="patent_block" href={pub.link}>
+            <a className={`patent_block ${background_class}`} href={pub.link} target="_blank">
                 <div className="num_row">
                     <h2 className="patent_num">{pub.article}</h2>
                     <div className="patent_date">{pub.date}</div>
@@ -22,7 +23,7 @@ class Publications extends React.Component {
                 <div className="patent_title">{pub.title}</div>
                 <div className="patent_desc">{pub.abstract}</div>
                 <div className="patent_footer">
-                    <div className="patent_coauthors">Coauthors: {pub.co_authors}</div>
+                    <div className="patent_coauthors">Authors: {pub.authors}</div>
                 </div>
                 <div className="learn_more">
                     {click_text}
@@ -35,11 +36,11 @@ class Publications extends React.Component {
         let pub_blocks = PUBLICATIONS.map((pub, idx) => this.render_pub_block(pub, idx))
         return (
             <div className="patents">
+                <div className="header_img publications" />
+
                 <div className="description">
-                Dr. KZ Hong has co-authored over 15 publications in leading engineering, medical, and plastics/polymer publications
-                across his illustrious career. His rigorous research has advanced the field of polymer science. To this day, Ninovatech continues its research and development in 
-                both synthetic and natural materials and continues to contribute to the expansion of 
-                the world's knowledge pool of with new discoveries every year. 
+                Across his career, Dr. KZ Hong has co-authored numerous articles and papers in the nation's leading engineering, medical, and plastics/polymer publications. 
+                His rigorous research has advanced the field of polymer science and continues to contribute new findings every year.
                 </div>
                 {pub_blocks}
             </div>
