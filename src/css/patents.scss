@@ -4,14 +4,14 @@
   background-image: url("../../public/images/patent_header.png");
 }
 .header_img.publications {
-  background-image: url("../../public/images/publications_header.jpg");
+  background-image: url("../../public/images/polymer_science_magazine.jpg");
 }
 .description {
     color: $header;
     @include description_text;
     width: 80%;
     margin: auto;
-    padding: 80px 0px;
+    padding: 30px 0px;
 }
 
 .learn_more {

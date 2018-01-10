@@ -105,6 +105,9 @@ class Patents extends React.Component{
     return(
       <div className="patents">
         <div className="header_img patents" />
+        <h1 className="main_title">
+          Patents
+        </h1>
         <div className="description">
         Dr. Hong holds multiple patents for material and product inventions in the US, Europe, and Asia. His patent 
         have revolutionized material technologies in the fields of healthcare and consumer products.

@@ -49,6 +49,9 @@ class Technologies extends React.Component{
       <div className="technologies">
       <div className="header_img technologies" />
       <div className="technologies_top">
+        <h1 className="main_title">
+          Technologies
+        </h1>
           {introduction_section}
           <div className="cat-links">
           {categoryLinks}

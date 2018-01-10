@@ -37,6 +37,9 @@ class Publications extends React.Component {
         return (
             <div className="patents">
                 <div className="header_img publications" />
+                <h1 className="main_title">
+                    Publications
+                </h1>
 
                 <div className="description">
                 Across his career, Dr. KZ Hong has co-authored numerous articles and papers in the nation's leading engineering, medical, and plastics/polymer publications. 
